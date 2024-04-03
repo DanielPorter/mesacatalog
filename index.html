@@ -7,10 +7,12 @@
   <style>
     body {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
       height: 100vh;
       margin: 0;
+      font-family: Arial, sans-serif;
     }
 
     #courseList {
@@ -33,11 +35,21 @@
     .course-description {
       display: none;
     }
+
+    #searchInput {
+      width: 100%;
+      max-width: 600px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
   </style>
 </head>
 <body>
-  <input type="text" id="searchInput" placeholder="Search for courses...">
   <div id="courseList">
+    <input type="text" id="searchInput" placeholder="Search for courses...">
     <!-- Course cards will be dynamically added here -->
   </div>
 
@@ -52,7 +64,6 @@
     // Function to generate course cards
     function generateCourseCards() {
       const courseList = document.getElementById('courseList');
-      courseList.innerHTML = '';
       courses.forEach(course => {
         const card = document.createElement('div');
         card.classList.add('course-card');
