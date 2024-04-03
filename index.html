@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Course Directory</h1>
+    <div class="courses">
+      <div class="course" data-description="Description of course 1" data-units="4">
+        <div class="course-preview">
+          <h2>Course 1 - Introduction to Programming</h2>
+          <button class="toggle-description">Show Details</button>
+        </div>
+        <div class="description hidden">
+          <p>Description: <span class="course-description"></span></p>
+          <p>Units: <span class="course-units"></span></p>
+        </div>
+      </div>
+      <div class="course" data-description="Description of course 2" data-units="3">
+        <div class="course-preview">
+          <h2>Course 2 - Web Development Fundamentals</h2>
+          <button class="toggle-description">Show Details</button>
+        </div>
+        <div class="description hidden">
+          <p>Description: <span class="course-description"></span></p>
+          <p>Units: <span class="course-units"></span></p>
+        </div>
+      </div>
+      <!-- Add more courses here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
