@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Course Catalog</title>
   <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #courseList {
+      max-width: 600px;
+      width: 100%;
+    }
+
     .course-card {
       border: 1px solid #ccc;
       border-radius: 5px;
@@ -45,7 +58,12 @@
         card.classList.add('course-card');
         card.innerHTML = `<div>${course.code} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}<br><strong>Prerequisites:</strong> ${course.prerequisites}</div>`;
         card.addEventListener('click', () => {
-          card.querySelector('.course-description').style.display = 'block';
+          const description = card.querySelector('.course-description');
+          if (description.style.display === 'block') {
+            description.style.display = 'none';
+          } else {
+            description.style.display = 'block';
+          }
         });
         courseList.appendChild(card);
       });
