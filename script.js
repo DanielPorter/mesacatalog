@@ -25,6 +25,8 @@ function hideCourseDetails() {
     courseDetails.style.display = "none";
 }
 
+
+
 // Function to filter courses based on search input
 function filterCourses(searchTerm) {
     const filteredCourses = courses.filter(course => {
@@ -33,14 +35,26 @@ function filterCourses(searchTerm) {
     displayCourses(filteredCourses);
 }
 
-// Function to display courses
+// Function to display courses as preview cards
 function displayCourses(coursesToShow) {
     courseList.innerHTML = "";
     coursesToShow.forEach(course => {
         const courseCard = document.createElement("div");
         courseCard.classList.add("courseCard");
-        courseCard.textContent = `${course.code} - ${course.title}`;
-        courseCard.addEventListener("click", () => displayCourseDetails(course));
+        courseCard.innerHTML = `
+            <div class="courseCardContent">
+                <h3>${course.code}</h3>
+                <h4>${course.title}</h4>
+            </div>
+            <div class="expandButton">+</div>
+        `;
+        courseCard.addEventListener("click", () => {
+            if (courseDetails.style.display === "block" && courseDetails.dataset.courseCode === course.code) {
+                hideCourseDetails();
+            } else {
+                displayCourseDetails(course);
+            }
+        });
         courseList.appendChild(courseCard);
     });
 }
