@@ -48,8 +48,8 @@
   </style>
 </head>
 <body>
+  <input type="text" id="searchInput" placeholder="Search for courses...">
   <div id="courseList">
-    <input type="text" id="searchInput" placeholder="Search for courses...">
     <!-- Course cards will be dynamically added here -->
   </div>
 
@@ -88,7 +88,7 @@
         course.title.toLowerCase().includes(searchInput)
       );
       courses.forEach(course => {
-        const card = document.getElementById(`course-${course.code}`);
+        const card = document.querySelector(`[data-code="${course.code}"]`);
         if (filteredCourses.includes(course)) {
           card.style.display = 'block';
         } else {
