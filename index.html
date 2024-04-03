@@ -1,23 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Directory</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Catalog</title>
+  <style>
+    .course-card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .course-card:hover {
+      background-color: #f0f0f0;
+    }
+
+    .course-description {
+      display: none;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <input type="text" id="searchInput" placeholder="Search courses...">
-    </header>
-    <main>
-        <div id="courseList">
-            <!-- Course preview cards will be dynamically added here -->
-        </div>
-        <div id="courseDetails" style="display: none;">
-            <!-- Course details will be displayed here when a course is clicked -->
-        </div>
-    </main>
-    <script src="script.js"></script>
+  <input type="text" id="searchInput" placeholder="Search for courses...">
+  <div id="courseList">
+    <!-- Course cards will be dynamically added here -->
+  </div>
+
+  <script>
+    // Sample course data (replace with your actual course data)
+    const courses = [
+      { code: "CSCI101", title: "Introduction to Computer Science", description: "An introductory course to computer science.", units: 3, prerequisites: "None" },
+      { code: "MATH201", title: "Calculus I", description: "A course covering the basics of calculus.", units: 4, prerequisites: "MATH101" },
+      // Add more courses here
+    ];
+
+    // Function to generate course cards
+    function generateCourseCards() {
+      const courseList = document.getElementById('courseList');
+      courseList.innerHTML = '';
+      courses.forEach(course => {
+        const card = document.createElement('div');
+        card.classList.add('course-card');
+        card.innerHTML = `<div>${course.code} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}<br><strong>Prerequisites:</strong> ${course.prerequisites}</div>`;
+        card.addEventListener('click', () => {
+          card.querySelector('.course-description').style.display = 'block';
+        });
+        courseList.appendChild(card);
+      });
+    }
+
+    // Function to filter courses based on search input
+    function filterCourses() {
+      const searchInput = document.getElementById('searchInput').value.toLowerCase();
+      const filteredCourses = courses.filter(course =>
+        course.code.toLowerCase().includes(searchInput) ||
+        course.title.toLowerCase().includes(searchInput)
+      );
+      courses.forEach(course => {
+        const card = document.getElementById(`course-${course.code}`);
+        if (filteredCourses.includes(course)) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Initial generation of course cards
+    generateCourseCards();
+
+    // Event listener for search input
+    document.getElementById('searchInput').addEventListener('input', filterCourses);
+  </script>
 </body>
 </html>
