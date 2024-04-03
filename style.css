@@ -12,6 +12,11 @@
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .course-preview {
@@ -22,8 +27,13 @@
 
 .description {
   margin-top: 10px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
 }
 
 .hidden {
-  display: none;
+  max-height: 0;
+  padding: 0 20px;
+  transition: max-height 0.3s ease, padding 0.3s ease;
 }
