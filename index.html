@@ -61,6 +61,27 @@
       border-radius: 5px;
       box-sizing: border-box;
     }
+
+    /* Add transition for course description */
+    .course-description {
+      display: none;
+      transition: max-height 0.3s ease-in-out;
+      overflow: hidden;
+    }
+
+    .course-card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .course-card:hover {
+      background-color: #f0f0f0;
+    }
+    
   </style>
 </head>
 <body>
@@ -122,10 +143,10 @@ async function generateCourseCards() {
     card.innerHTML = `<div>${course.department} ${course.code} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}<br><strong>Prerequisites:</strong> ${course.prerequisites || "None"}</div>`;
     card.addEventListener('click', () => {
       const description = card.querySelector('.course-description');
-      if (description.style.display === 'block') {
-        description.style.display = 'none';
+      if (description.style.maxHeight) {
+        description.style.maxHeight = null;
       } else {
-        description.style.display = 'block';
+        description.style.maxHeight = description.scrollHeight + 'px';
       }
     });
     courseList.appendChild(card);
