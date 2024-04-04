@@ -98,6 +98,7 @@
   </div>
 
   <script>
+    document.addEventListener('DOMContentLoaded', () => {
     // Function to fetch course data from JSON file
     async function fetchCourses() {
       try {
@@ -181,6 +182,7 @@ async function generateCourseCards() {
 
     // Event listener for department select
     document.getElementById('departmentSelect').addEventListener('change', filterCourses);
+      });
   </script>
 </body>
 </html>
