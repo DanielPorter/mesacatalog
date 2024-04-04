@@ -34,8 +34,8 @@
     );
     const courseCards = document.querySelectorAll('.course-card');
     courseCards.forEach(card => {
-      const courseCode = card.querySelector('div').textContent.split(' - ')[0];
-      if (filteredCourses.some(course => course.code === courseCode)) {
+      const courseTitle = card.querySelector('div').textContent.split(' - ')[1];
+      if (filteredCourses.some(course => course.title === courseTitle)) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
