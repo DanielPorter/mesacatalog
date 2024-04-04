@@ -142,8 +142,10 @@ async function generateCourseCards() {
     card.classList.add('course-card');
     card.innerHTML = `<div>${course.department} ${course.code} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}<br><strong>Prerequisites:</strong> ${course.prerequisites || "None"}</div>`;
     const description = card.querySelector('.course-description');
-    description.style.maxHeight = 0; // Set initial max height to 0
+    // Initially hide the description
+    description.style.maxHeight = '0px';
     card.addEventListener('click', () => {
+      // Toggle the max height
       if (description.style.maxHeight === '0px') {
         description.style.maxHeight = description.scrollHeight + 'px';
       } else {
