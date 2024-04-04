@@ -113,7 +113,7 @@
     // Function to fetch department data from JSON file
     async function fetchDepartments() {
       try {
-        const response = await fetch('departments.json');
+        const response = await fetch('department.json');
         const data = await response.json();
         return data;
       } catch (error) {
