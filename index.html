@@ -111,26 +111,26 @@
       });
     }
 
-    // Function to generate course cards
-    async function generateCourseCards() {
-      const courses = await fetchCourses();
-      const courseList = document.getElementById('courseList');
-      courseList.innerHTML = ''; // Clear previous content
-      courses.forEach(course => {
-        const card = document.createElement('div');
-        card.classList.add('course-card');
-        card.innerHTML = `<div>${course.code} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}<br><strong>Prerequisites:</strong> ${course.prerequisites || "None"}</div>`;
-        card.addEventListener('click', () => {
-          const description = card.querySelector('.course-description');
-          if (description.style.display === 'block') {
-            description.style.display = 'none';
-          } else {
-            description.style.display = 'block';
-          }
-        });
-        courseList.appendChild(card);
-      });
-    }
+// Function to generate course cards
+async function generateCourseCards() {
+  const courses = await fetchCourses();
+  const courseList = document.getElementById('courseList');
+  courseList.innerHTML = ''; // Clear previous content
+  courses.forEach(course => {
+    const card = document.createElement('div');
+    card.classList.add('course-card');
+    card.innerHTML = `<div>${course.department}${course.code} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}<br><strong>Prerequisites:</strong> ${course.prerequisites || "None"}</div>`;
+    card.addEventListener('click', () => {
+      const description = card.querySelector('.course-description');
+      if (description.style.display === 'block') {
+        description.style.display = 'none';
+      } else {
+        description.style.display = 'block';
+      }
+    });
+    courseList.appendChild(card);
+  });
+}
 
     // Function to filter courses based on search input and department
     function filterCourses() {
