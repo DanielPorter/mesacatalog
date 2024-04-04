@@ -80,19 +80,20 @@
       });
     }
 
-    // Function to filter courses based on search input
-    function filterCourses() {
-      const searchInput = document.getElementById('searchInput').value.toLowerCase();
-      const courseCards = document.querySelectorAll('.course-card');
-      courseCards.forEach(card => {
-        const courseTitle = card.querySelector('div').textContent.split(' - ')[1].toLowerCase();
-        if (courseTitle.includes(searchInput)) {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      });
+// Function to filter courses based on search input
+function filterCourses() {
+  const searchInput = document.getElementById('searchInput').value.toLowerCase();
+  const courseCards = document.querySelectorAll('.course-card');
+  courseCards.forEach(card => {
+    const courseTitle = card.querySelector('div').textContent.split(' - ')[1].toLowerCase();
+    const courseCode = card.querySelector('div').textContent.split(' - ')[0].toLowerCase();
+    if (courseTitle.includes(searchInput) || courseCode.includes(searchInput)) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
     }
+  });
+}
 
     // Initial generation of course cards
     generateCourseCards();
