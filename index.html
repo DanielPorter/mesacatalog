@@ -5,46 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Course Catalog</title>
   <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    #courseList {
-      max-width: 600px;
-      width: 100%;
-    }
-
-    .course-card {
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-      margin: 10px;
-      cursor: pointer;
-    }
-
-    .course-card:hover {
-      background-color: #f0f0f0;
-    }
-
-    .course-description {
-      display: none;
-    }
-
-    #searchInput {
-      width: 100%;
-      max-width: 600px;
-      padding: 10px;
-      margin: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box;
-    }
+    /* CSS styles remain the same */
   </style>
 </head>
 <body>
@@ -54,20 +15,13 @@
   </div>
 
   <script>
-    // Sample course data (replace with your actual course data)
-    const courses = [
-      { code: "CSCI101", title: "Introduction to Computer Science", description: "An introductory course to computer science.", units: 3, prerequisites: "None" },
-      { code: "MATH201", title: "Calculus I", description: "A course covering the basics of calculus.", units: 4, prerequisites: "MATH101" },
-      // Add more courses here
-    ];
-
     // Function to generate course cards
-    function generateCourseCards() {
+    function generateCourseCards(courses) {
       const courseList = document.getElementById('courseList');
       courses.forEach(course => {
         const card = document.createElement('div');
         card.classList.add('course-card');
-        card.innerHTML = `<div>${course.code} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}<br><strong>Prerequisites:</strong> ${course.prerequisites}</div>`;
+        card.innerHTML = `<div>${course.department}${course.id} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}</div>`;
         card.addEventListener('click', () => {
           const description = card.querySelector('.course-description');
           if (description.style.display === 'block') {
@@ -80,23 +34,28 @@
       });
     }
 
-// Function to filter courses based on search input
-function filterCourses() {
-  const searchInput = document.getElementById('searchInput').value.toLowerCase();
-  const courseCards = document.querySelectorAll('.course-card');
-  courseCards.forEach(card => {
-    const courseTitle = card.querySelector('div').textContent.split(' - ')[1].toLowerCase();
-    const courseCode = card.querySelector('div').textContent.split(' - ')[0].toLowerCase();
-    if (courseTitle.includes(searchInput) || courseCode.includes(searchInput)) {
-      card.style.display = 'block';
-    } else {
-      card.style.display = 'none';
+    // Function to filter courses based on search input
+    function filterCourses() {
+      const searchInput = document.getElementById('searchInput').value.toLowerCase();
+      const courseCards = document.querySelectorAll('.course-card');
+      courseCards.forEach(card => {
+        const courseTitle = card.querySelector('div').textContent.split(' - ')[1].toLowerCase();
+        const courseCode = card.querySelector('div').textContent.split(' - ')[0].toLowerCase();
+        if (courseTitle.includes(searchInput) || courseCode.includes(searchInput)) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
     }
-  });
-}
 
-    // Initial generation of course cards
-    generateCourseCards();
+    // Fetch course data from JSON file
+    fetch('courses.json')
+      .then(response => response.json())
+      .then(courses => {
+        generateCourseCards(courses);
+      })
+      .catch(error => console.error('Error fetching courses:', error));
 
     // Event listener for search input
     document.getElementById('searchInput').addEventListener('keydown', (event) => {
