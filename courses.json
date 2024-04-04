@@ -1,0 +1,4 @@
+[
+  { "department": "CSCI", "id": "101", "title": "Introduction to Computer Science", "units": 3, "description": "An introductory course to computer science." },
+  { "department": "MATH", "id": "201", "title": "Calculus I", "units": 4, "description": "A course covering the basics of calculus." }
+]
