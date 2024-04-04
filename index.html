@@ -21,15 +21,21 @@
       courses.forEach(course => {
         const card = document.createElement('div');
         card.classList.add('course-card');
-        card.innerHTML = `<div>${course.department}${course.id} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}</div>`;
+
+        const cardHeader = document.createElement('div');
+        cardHeader.classList.add('course-header');
+        cardHeader.textContent = `${course.department}${course.id} - ${course.title}`;
+        card.appendChild(cardHeader);
+
+        const cardDescription = document.createElement('div');
+        cardDescription.classList.add('course-description');
+        cardDescription.innerHTML = `<strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}`;
+        card.appendChild(cardDescription);
+
         card.addEventListener('click', () => {
-          const description = card.querySelector('.course-description');
-          if (description.style.display === 'block') {
-            description.style.display = 'none';
-          } else {
-            description.style.display = 'block';
-          }
+          cardDescription.style.display = cardDescription.style.display === 'block' ? 'none' : 'block';
         });
+
         courseList.appendChild(card);
       });
     }
@@ -39,9 +45,8 @@
       const searchInput = document.getElementById('searchInput').value.toLowerCase();
       const courseCards = document.querySelectorAll('.course-card');
       courseCards.forEach(card => {
-        const courseTitle = card.querySelector('div').textContent.split(' - ')[1].toLowerCase();
-        const courseCode = card.querySelector('div').textContent.split(' - ')[0].toLowerCase();
-        if (courseTitle.includes(searchInput) || courseCode.includes(searchInput)) {
+        const courseTitle = card.querySelector('.course-header').textContent.toLowerCase();
+        if (courseTitle.includes(searchInput)) {
           card.style.display = 'block';
         } else {
           card.style.display = 'none';
@@ -58,11 +63,7 @@
       .catch(error => console.error('Error fetching courses:', error));
 
     // Event listener for search input
-    document.getElementById('searchInput').addEventListener('keydown', (event) => {
-      if (event.key === 'Enter') {
-        filterCourses();
-      }
-    });
+    document.getElementById('searchInput').addEventListener('input', filterCourses);
   </script>
 </body>
 </html>
