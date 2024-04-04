@@ -1,4 +1,5 @@
 [
-  { "department": "CSCI", "id": "101", "title": "Introduction to Computer Science", "units": 3, "description": "An introductory course to computer science." },
-  { "department": "MATH", "id": "201", "title": "Calculus I", "units": 4, "description": "A course covering the basics of calculus." }
+  { "code": "CSCI101", "title": "Introduction to Computer Science", "description": "An introductory course to computer science.", "units": 3, "prerequisites": "None" },
+  { "code": "MATH201", "title": "Calculus I", "description": "A course covering the basics of calculus.", "units": 4, "prerequisites": "MATH101" }
+  // Add more courses here
 ]
