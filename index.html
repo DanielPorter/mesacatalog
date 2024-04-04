@@ -172,6 +172,25 @@ async function generateCourseCards() {
         }
       });
     }
+  
+    // Function to detect and block unwanted scripts
+  function blockUnwantedScripts() {
+    // Get all script elements on the page
+    var scriptElements = document.querySelectorAll('script');
+    // Loop through each script element
+    scriptElements.forEach(function(script) {
+      // Check if the script's src attribute matches a specific pattern or URL
+      if (script.src && script.src.includes('h1-check.js')) {
+        // If the script matches the unwanted pattern, hide or remove it
+        script.parentNode.removeChild(script);
+        // Alternatively, you can hide the script element:
+        // script.style.display = 'none';
+      }
+    });
+  }
+
+  // Call the blockUnwantedScripts function when the page is fully loaded
+  window.addEventListener('load', blockUnwantedScripts);
 
     // Initial generation of course cards and department options
     generateCourseCards();
