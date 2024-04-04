@@ -31,8 +31,11 @@
         cardDescription.classList.add('course-description');
         cardDescription.innerHTML = `<strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}`;
         card.appendChild(cardDescription);
+        
+        // Hide description by default
+        cardDescription.style.display = 'none';
 
-        card.addEventListener('click', () => {
+        cardHeader.addEventListener('click', () => {
           cardDescription.style.display = cardDescription.style.display === 'block' ? 'none' : 'block';
         });
 
