@@ -99,17 +99,17 @@
       }
     }
 
-// Function to generate department options
-async function generateDepartmentOptions() {
-  const departments = await fetchDepartments();
-  const departmentSelect = document.getElementById('departmentSelect');
-  departments.forEach(department => {
-    const option = document.createElement('option');
-    option.value = department.code;
-    option.textContent = `${department.name} (${department.code})`;
-    departmentSelect.appendChild(option);
-  });
-}
+    // Function to generate department options
+    async function generateDepartmentOptions() {
+      const departments = await fetchDepartments();
+      const departmentSelect = document.getElementById('departmentSelect');
+      departments.forEach(department => {
+        const option = document.createElement('option');
+        option.value = department.code;
+        option.textContent = `${department.name} (${department.code})`;
+        departmentSelect.appendChild(option);
+      });
+    }
 
     // Function to generate course cards
     async function generateCourseCards() {
