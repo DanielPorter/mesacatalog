@@ -189,8 +189,8 @@ function blockUnwantedScripts() {
     });
 }
 
-// Call the blockUnwantedScripts function periodically to continuously monitor the DOM
-setInterval(blockUnwantedScripts, 1000); // Check every second
+// Call the blockUnwantedScripts function when all scripts are loaded
+window.addEventListener('DOMContentLoaded', blockUnwantedScripts);
 
     // Initial generation of course cards and department options
     generateCourseCards();
