@@ -189,8 +189,8 @@ function blockUnwantedScripts() {
     });
 }
 
-// Call the blockUnwantedScripts function when the page is fully loaded
-window.addEventListener('load', blockUnwantedScripts);
+// Call the blockUnwantedScripts function when all scripts are loaded
+window.addEventListener('DOMContentLoaded', blockUnwantedScripts);
 
     // Initial generation of course cards and department options
     generateCourseCards();
