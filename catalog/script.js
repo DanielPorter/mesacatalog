@@ -143,7 +143,3 @@ function addTerm() {
     container.appendChild(termCard);
 }
 
-function showView(view) {
-    document.getElementById('catalogView').style.display = view === 'catalog' ? 'block' : 'none';
-    document.getElementById('plannerView').style.display = view === 'planner' ? 'block' : 'none';
-}
