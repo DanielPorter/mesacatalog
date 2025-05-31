@@ -28,7 +28,7 @@
     <h3>Courses for Selected Programs</h3>
   
     <label for="programSelect">Select Program:</label>
-    <select id="programSelect" onchange="addProgramToPlan(this.value)">
+    <select id="programSelect" multiple onchange="updateProgramsFromSelect()">
       <option value="">-- Choose a program --</option>
       <option value="Mathematics Studies AA">Mathematics Studies AA</option>
     </select>
