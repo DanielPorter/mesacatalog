@@ -48,6 +48,7 @@ function switchPlan(planId) {
   userPlans.activePlan = planId;
   saveUserPlans();
   renderPlanView(userPlans.plans[planId]);
+  renderCoursePool(plan);
 }
 
 // Add a new term to current plan
@@ -58,6 +59,7 @@ function addTerm() {
   plan.terms[newTermName] = [];
   saveUserPlans();
   renderPlanView(plan);
+  renderCoursePool(plan);
 }
 
 // Render the entire plan
@@ -82,6 +84,44 @@ function renderPlanView(plan) {
       delete plan.terms[termName];
       saveUserPlans();
       renderPlanView(plan);
+
+    function renderCoursePool(plan) {
+      const pool = document.getElementById("coursePool");
+      pool.innerHTML = "";
+    
+      const programs = plan.programs;
+      const courseSet = new Set();
+    
+      // Flatten required courses from all programs
+      programs.forEach(programName => {
+        const prog = programData[programName];
+        if (!prog) return;
+        prog.requirements.forEach(block => {
+          if (block.courses) {
+            block.courses.forEach(courseId => courseSet.add(courseId));
+          }
+        });
+      });
+    
+      // Render pills
+      Array.from(courseSet).forEach(courseId => {
+        const course = allCourseData[courseId];
+        if (!course) return;
+    
+        const pill = document.createElement("div");
+        pill.className = "course-pill";
+        pill.innerText = `${course.code}: ${course.title}`;
+        pill.setAttribute("draggable", "true");
+        pill.dataset.courseId = courseId;
+    
+        pill.addEventListener("dragstart", e => {
+          e.dataTransfer.setData("text/plain", courseId);
+        });
+    
+        pool.appendChild(pill);
+      });
+    }
+
     };
 
     header.appendChild(title);
