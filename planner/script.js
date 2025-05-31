@@ -41,10 +41,12 @@ function saveUserPlans() {
 
 function switchPlan(planId) {
   userPlans.activePlan = planId;
-  saveUserPlans();
   const plan = userPlans.plans[planId];
+  plan.programs = []; // Reset programs
+  saveUserPlans();
   renderPlanView(plan);
   renderCoursePool(plan);
+  updateProgramSelect(plan); // New
 }
 
 function addTerm() {
