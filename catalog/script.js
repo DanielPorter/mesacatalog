@@ -8,8 +8,8 @@ async function loadCourses() {
     try {
         console.log("Loading courses...");
         const [sdmcResponse, ucbResponse] = await Promise.all([
-            fetch('sd-miramar-courses.json'),
-            fetch('ucb-courses.json')
+            fetch('../sd-miramar-courses.json'),
+            fetch('../ucb-courses.json')
         ]);
         const sdmcCourses = await sdmcResponse.json();
         const ucbCourses = await ucbResponse.json();
