@@ -156,3 +156,13 @@ function renderCoursePool(plan) {
     pool.appendChild(pill);
   });
 }
+
+function addProgramToPlan(programName) {
+  if (!programName) return;
+  const plan = userPlans.plans[userPlans.activePlan];
+  if (!plan.programs.includes(programName)) {
+    plan.programs.push(programName);
+    saveUserPlans();
+    renderCoursePool(plan);
+  }
+}
