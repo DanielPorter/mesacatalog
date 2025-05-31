@@ -132,11 +132,37 @@ function renderCoursePool(plan) {
   programs.forEach(programName => {
     const prog = programData[programName];
     if (!prog) return;
-    prog.requirements.forEach(block => {
-      if (block.courses) {
-        block.courses.forEach(courseId => courseSet.add(courseId));
-      }
+  prog.requirements.forEach(block => {
+    const section = document.createElement("div");
+    section.className = "course-section";
+  
+    const title = document.createElement("h4");
+    if (block.type === "required") title.innerText = "Core Courses";
+    else if (block.type === "choose-n") title.innerText = `Choose ${block.n}`;
+    else if (block.type === "min-units-from-list") title.innerText = `Choose ${block.units} Units`;
+  
+    section.appendChild(title);
+  
+    block.courses.forEach(courseId => {
+      const course = allCourseData[courseId];
+      if (!course) return;
+  
+      const pill = document.createElement("div");
+      pill.className = "course-pill";
+      pill.innerText = `${course.code}: ${course.title}`;
+      pill.setAttribute("draggable", "true");
+      pill.dataset.courseId = courseId;
+  
+      pill.addEventListener("dragstart", e => {
+        e.dataTransfer.setData("text/plain", courseId);
+      });
+  
+      section.appendChild(pill);
     });
+  
+    pool.appendChild(section);
+  });
+
   });
 
   Array.from(courseSet).forEach(courseId => {
