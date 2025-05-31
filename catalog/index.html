@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transfer Planner - Course Catalog</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Catalog</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<!-- Top Navigation Bar -->
-<nav class="top-nav">
-  <button onclick="showView('catalog')">Course Catalog</button>
-  <button onclick="showView('planner')">Course Planner</button>
-</nav>
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <a href="../planner/index.html"><button>Course Planner</button></a>
+    <a href="../index.html"><button>Home</button></a>
+  </nav>
 
-<!-- Catalog View -->
-<div id="catalogView">
+  <!-- Catalog View -->
   <div class="container">
-    <!-- Left sidebar with search -->
     <div class="sidebar">
       <h2>Course Search</h2>
       <div class="search-filters">
@@ -35,31 +33,15 @@
       </div>
     </div>
 
-    <!-- Course cards -->
     <div class="courses-grid" id="coursesContainer"></div>
   </div>
 
-  <!-- Pagination -->
   <div class="pagination">
     <button id="prevPage">Previous</button>
     <span id="currentPage">1</span>
     <button id="nextPage">Next</button>
   </div>
-</div>
 
-<!-- Planner View -->
-<div id="plannerView" style="display: none;">
-  <div class="planner">
-    <div class="planner-header">
-      <h2>Course Planner</h2>
-      <button onclick="addTerm()">Add Term</button>
-    </div>
-    <div id="termsContainer" class="terms-container"></div>
-  </div>
-</div>
-
-
-    <!-- Link to your JavaScript file -->
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
