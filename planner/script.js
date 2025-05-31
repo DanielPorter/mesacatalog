@@ -1,57 +1,52 @@
-// File paths
 const COURSES_PATH = "data/courses.json";
 const PROGRAMS_PATH = "data/programs.json";
-const ARTICULATIONS_PATH = "data/articulation-map.json";
 
-// Global variables
 let allCourseData = {};
-let activePlanId = "miramar";
+let programData = {};
 let userPlans = {
   activePlan: "miramar",
   plans: {
-    miramar: { institution: "San Diego Miramar College", programs: [], terms: {} },
+    miramar: { institution: "San Diego Miramar College", programs: ["Mathematics Studies AA"], terms: {} },
     ucb: { institution: "UC Berkeley", programs: [], terms: {} }
   },
   completedCourses: []
 };
 
-// Load data and initialize
 window.onload = async function () {
   await loadAllCourseData();
   loadUserPlans();
   document.getElementById("planSelect").value = userPlans.activePlan;
-  renderPlanView(userPlans.plans[userPlans.activePlan]);
+  const plan = userPlans.plans[userPlans.activePlan];
+  renderPlanView(plan);
+  renderCoursePool(plan);
 };
 
-// Load all data files
 async function loadAllCourseData() {
-  const [courseRes] = await Promise.all([
-    fetch(COURSES_PATH).then(res => res.json())
-    // In future: add programs and articulation loading here
+  const [coursesRes, programsRes] = await Promise.all([
+    fetch(COURSES_PATH).then(res => res.json()),
+    fetch(PROGRAMS_PATH).then(res => res.json())
   ]);
-  allCourseData = courseRes;
+  allCourseData = coursesRes;
+  programData = programsRes;
 }
 
-// Load saved plans from localStorage
 function loadUserPlans() {
   const saved = localStorage.getItem("transferPlans");
   if (saved) userPlans = JSON.parse(saved);
 }
 
-// Save plans to localStorage
 function saveUserPlans() {
   localStorage.setItem("transferPlans", JSON.stringify(userPlans));
 }
 
-// Switch between plans
 function switchPlan(planId) {
   userPlans.activePlan = planId;
   saveUserPlans();
-  renderPlanView(userPlans.plans[planId]);
+  const plan = userPlans.plans[planId];
+  renderPlanView(plan);
   renderCoursePool(plan);
 }
 
-// Add a new term to current plan
 function addTerm() {
   const plan = userPlans.plans[userPlans.activePlan];
   const termNames = Object.keys(plan.terms);
@@ -62,25 +57,9 @@ function addTerm() {
   renderCoursePool(plan);
 }
 
-// Render the entire plan
 function renderPlanView(plan) {
   const container = document.getElementById("termsContainer");
   container.innerHTML = "";
-
-  courseList.className = "term-courses";
-    courseList.ondragover = e => e.preventDefault();
-    
-    courseList.ondrop = e => {
-      e.preventDefault();
-      const courseId = e.dataTransfer.getData("text/plain");
-      if (!plan.terms[termName].includes(courseId)) {
-        plan.terms[termName].push(courseId);
-        saveUserPlans();
-        renderPlanView(plan);
-        renderCoursePool(plan);
-      }
-    };
-
 
   Object.entries(plan.terms).forEach(([termName, courseIds]) => {
     const termCard = document.createElement("div");
@@ -99,44 +78,7 @@ function renderPlanView(plan) {
       delete plan.terms[termName];
       saveUserPlans();
       renderPlanView(plan);
-
-    function renderCoursePool(plan) {
-      const pool = document.getElementById("coursePool");
-      pool.innerHTML = "";
-    
-      const programs = plan.programs;
-      const courseSet = new Set();
-    
-      // Flatten required courses from all programs
-      programs.forEach(programName => {
-        const prog = programData[programName];
-        if (!prog) return;
-        prog.requirements.forEach(block => {
-          if (block.courses) {
-            block.courses.forEach(courseId => courseSet.add(courseId));
-          }
-        });
-      });
-    
-      // Render pills
-      Array.from(courseSet).forEach(courseId => {
-        const course = allCourseData[courseId];
-        if (!course) return;
-    
-        const pill = document.createElement("div");
-        pill.className = "course-pill";
-        pill.innerText = `${course.code}: ${course.title}`;
-        pill.setAttribute("draggable", "true");
-        pill.dataset.courseId = courseId;
-    
-        pill.addEventListener("dragstart", e => {
-          e.dataTransfer.setData("text/plain", courseId);
-        });
-    
-        pool.appendChild(pill);
-      });
-    }
-
+      renderCoursePool(plan);
     };
 
     header.appendChild(title);
@@ -145,7 +87,19 @@ function renderPlanView(plan) {
     const courseList = document.createElement("div");
     courseList.className = "term-courses";
 
-    // Populate courses
+    courseList.ondragover = e => e.preventDefault();
+    courseList.ondrop = e => {
+      e.preventDefault();
+      const courseId = e.dataTransfer.getData("text/plain");
+      if (!plan.terms[termName].includes(courseId)) {
+        plan.terms[termName].push(courseId);
+        saveUserPlans();
+        renderPlanView(plan);
+        renderCoursePool(plan);
+      }
+    };
+
+    let totalDifficulty = 0;
     courseIds.forEach(courseId => {
       const course = allCourseData[courseId];
       if (!course) return;
@@ -153,11 +107,10 @@ function renderPlanView(plan) {
       const pill = document.createElement("div");
       pill.className = "course-pill";
       pill.innerText = `${course.code}: ${course.title}`;
+      totalDifficulty += course.difficulty || 0;
       courseList.appendChild(pill);
     });
 
-    // Optional: calculate total difficulty
-    const totalDifficulty = courseIds.reduce((sum, id) => sum + (allCourseData[id]?.difficulty || 0), 0);
     const diffBadge = document.createElement("div");
     diffBadge.className = "difficulty-badge";
     diffBadge.innerText = `Difficulty: ${totalDifficulty}`;
@@ -166,5 +119,40 @@ function renderPlanView(plan) {
     termCard.appendChild(header);
     termCard.appendChild(courseList);
     container.appendChild(termCard);
+  });
+}
+
+function renderCoursePool(plan) {
+  const pool = document.getElementById("coursePool");
+  pool.innerHTML = "";
+
+  const programs = plan.programs;
+  const courseSet = new Set();
+
+  programs.forEach(programName => {
+    const prog = programData[programName];
+    if (!prog) return;
+    prog.requirements.forEach(block => {
+      if (block.courses) {
+        block.courses.forEach(courseId => courseSet.add(courseId));
+      }
+    });
+  });
+
+  Array.from(courseSet).forEach(courseId => {
+    const course = allCourseData[courseId];
+    if (!course) return;
+
+    const pill = document.createElement("div");
+    pill.className = "course-pill";
+    pill.innerText = `${course.code}: ${course.title}`;
+    pill.setAttribute("draggable", "true");
+    pill.dataset.courseId = courseId;
+
+    pill.addEventListener("dragstart", e => {
+      e.dataTransfer.setData("text/plain", courseId);
+    });
+
+    pool.appendChild(pill);
   });
 }

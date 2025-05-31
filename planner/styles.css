@@ -35,8 +35,25 @@ body {
   margin: 20px;
 }
 
+#plannerView {
+  display: flex;
+}
+
+.course-pool {
+  width: 300px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+.course-pool-list .course-pill {
+  cursor: grab;
+  margin-bottom: 10px;
+}
+
 .planner {
   margin: 20px;
+  flex-grow: 1;
 }
 
 .planner-header {
@@ -75,24 +92,16 @@ body {
   background-color: #f1f3f5;
   border-radius: 8px;
   padding: 10px 15px;
-  margin-bottom: 8px;
   font-size: 14px;
   display: inline-block;
-}
-
-#plannerView {
-  display: flex;
-}
-
-.course-pool {
-  width: 300px;
-  padding: 20px;
-  border-right: 1px solid #ddd;
-  background-color: #ffffff;
-}
-
-.course-pool-list .course-pill {
-  cursor: grab;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
+.difficulty-badge {
+  background-color: #eee;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
