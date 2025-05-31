@@ -1,0 +1,175 @@
+/* BerkeleyTime-inspired styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+    padding-top: 60px; /* Keeps content pushed below fixed top-nav */
+}
+
+/* Container for the course cards */
+.container {
+    margin-left: 290px; /* Margin to account for the fixed sidebar (250px + 20px gap) */
+    padding: 20px; /* Add some padding around the course cards */
+}
+
+/* Left sidebar */
+.sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed; /* Fix the sidebar to the viewport */
+    top: 20px; /* Position from the top */
+    bottom: 20px; /* Extend to the bottom of the screen */
+    left: 20px; /* Position from the left */
+    overflow-y: auto; /* Add scroll if content overflows */
+}
+
+.search-filters input, .search-filters select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Course cards grid */
+.courses-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+}
+
+.course-card.active {
+    transform: scale(1.02);
+}
+
+.course-basic {
+    display: flex;
+    justify-content: space-between; /* Space out course code and title */
+    align-items: center;
+}
+
+.course-details {
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+}
+
+/* Add a pseudo-element for the sidebar background */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 290px; /* Sidebar width + padding */
+    height: 100%;
+    background-color: white; /* Match the sidebar background */
+    z-index: -1; /* Place it behind the sidebar */
+}
+
+.planner {
+    margin-left: 290px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.planner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.terms-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.term-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.term-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.term-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.course-pill {
+    background-color: #f1f3f5;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* Navigation Bar */
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 290px 10px 290px; /* Matches sidebar margin */
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.top-nav button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.top-nav button:hover {
+    background-color: #e9ecef;
+}
+
+/* Push main content down below nav */
+body {
+    padding-top: 60px;
+}
