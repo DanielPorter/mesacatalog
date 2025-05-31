@@ -1,0 +1,79 @@
+{
+  "miramar-math-150": {
+    "id": "miramar-math-150",
+    "code": "MATH 150",
+    "title": "Calculus I",
+    "units": 5,
+    "difficulty": 4
+  },
+  "miramar-math-151": {
+    "id": "miramar-math-151",
+    "code": "MATH 151",
+    "title": "Calculus II",
+    "units": 4,
+    "difficulty": 4
+  },
+  "miramar-math-245": {
+    "id": "miramar-math-245",
+    "code": "MATH 245",
+    "title": "Discrete Mathematics",
+    "units": 3,
+    "difficulty": 3
+  },
+  "miramar-math-254": {
+    "id": "miramar-math-254",
+    "code": "MATH 254",
+    "title": "Introduction to Linear Algebra",
+    "units": 3,
+    "difficulty": 3
+  },
+  "miramar-cs-119": {
+    "id": "miramar-cs-119",
+    "code": "CS 119",
+    "title": "Introduction to Programming",
+    "units": 3,
+    "difficulty": 3
+  },
+  "miramar-phys-195": {
+    "id": "miramar-phys-195",
+    "code": "PHYS 195",
+    "title": "Mechanics",
+    "units": 4,
+    "difficulty": 4
+  },
+  "miramar-phys-196": {
+    "id": "miramar-phys-196",
+    "code": "PHYS 196",
+    "title": "Electricity and Magnetism",
+    "units": 4,
+    "difficulty": 4
+  },
+  "miramar-math-252": {
+    "id": "miramar-math-252",
+    "code": "MATH 252",
+    "title": "Calculus III",
+    "units": 4,
+    "difficulty": 4
+  },
+  "miramar-math-255": {
+    "id": "miramar-math-255",
+    "code": "MATH 255",
+    "title": "Differential Equations",
+    "units": 3,
+    "difficulty": 4
+  },
+  "miramar-cs-210": {
+    "id": "miramar-cs-210",
+    "code": "CS 210",
+    "title": "Data Structures and Algorithms",
+    "units": 4,
+    "difficulty": 5
+  },
+  "miramar-phil-205": {
+    "id": "miramar-phil-205",
+    "code": "PHIL 205",
+    "title": "Logic",
+    "units": 3,
+    "difficulty": 2
+  }
+}
