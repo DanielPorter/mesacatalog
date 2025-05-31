@@ -199,7 +199,9 @@ function updateProgramSelect(plan) {
   const select = document.getElementById("programSelect");
   select.innerHTML = "";
 
-  Object.keys(programData).forEach(name => {
+  Object.entries(programData).forEach(([name, program]) => {
+    if (program.institution !== plan.institution) return;
+
     const option = document.createElement("option");
     option.value = name;
     option.innerText = name;
