@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Course Planner</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -12,6 +12,15 @@
     <a href="../catalog/index.html"><button>Course Catalog</button></a>
     <a href="../index.html"><button>Home</button></a>
   </nav>
+
+  <!-- Plan Switcher -->
+  <div class="plan-switcher">
+    <label for="planSelect">Select Plan:</label>
+    <select id="planSelect" onchange="switchPlan(this.value)">
+      <option value="miramar">Miramar College</option>
+      <option value="ucb">UC Berkeley</option>
+    </select>
+  </div>
 
   <!-- Planner View -->
   <div id="plannerView">
