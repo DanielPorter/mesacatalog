@@ -185,12 +185,12 @@ function renderCoursePool(plan) {
   });
 }
 
-function addProgramToPlan(programName) {
-  if (!programName) return;
+function updateProgramsFromSelect() {
+  const select = document.getElementById("programSelect");
+  const selected = Array.from(select.selectedOptions).map(opt => opt.value);
+
   const plan = userPlans.plans[userPlans.activePlan];
-  if (!plan.programs.includes(programName)) {
-    plan.programs.push(programName);
-    saveUserPlans();
-    renderCoursePool(plan);
-  }
+  plan.programs = selected;
+  saveUserPlans();
+  renderCoursePool(plan);
 }
