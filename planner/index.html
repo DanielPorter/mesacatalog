@@ -24,10 +24,17 @@
 
   <!-- Main Layout -->
   <div id="plannerView">
-    <div class="course-pool">
-      <h3>Courses for Selected Programs</h3>
-      <div id="coursePool" class="course-pool-list"></div>
-    </div>
+  <div class="course-pool">
+    <h3>Courses for Selected Programs</h3>
+  
+    <label for="programSelect">Select Program:</label>
+    <select id="programSelect" onchange="addProgramToPlan(this.value)">
+      <option value="">-- Choose a program --</option>
+      <option value="Mathematics Studies AA">Mathematics Studies AA</option>
+    </select>
+  
+    <div id="coursePool" class="course-pool-list"></div>
+  </div>
     <div class="planner">
       <div class="planner-header">
         <h2>Course Planner</h2>
