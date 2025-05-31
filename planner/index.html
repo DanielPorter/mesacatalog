@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <a href="../catalog/index.html"><button>Course Catalog</button></a>
+    <a href="../index.html"><button>Home</button></a>
+  </nav>
+
+  <!-- Planner View -->
+  <div id="plannerView">
+    <div class="planner">
+      <div class="planner-header">
+        <h2>Course Planner</h2>
+        <button onclick="addTerm()">Add Term</button>
+      </div>
+      <div id="termsContainer" class="terms-container"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
