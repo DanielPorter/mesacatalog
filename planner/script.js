@@ -67,6 +67,21 @@ function renderPlanView(plan) {
   const container = document.getElementById("termsContainer");
   container.innerHTML = "";
 
+  courseList.className = "term-courses";
+    courseList.ondragover = e => e.preventDefault();
+    
+    courseList.ondrop = e => {
+      e.preventDefault();
+      const courseId = e.dataTransfer.getData("text/plain");
+      if (!plan.terms[termName].includes(courseId)) {
+        plan.terms[termName].push(courseId);
+        saveUserPlans();
+        renderPlanView(plan);
+        renderCoursePool(plan);
+      }
+    };
+
+
   Object.entries(plan.terms).forEach(([termName, courseIds]) => {
     const termCard = document.createElement("div");
     termCard.className = "term-card";
