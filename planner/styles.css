@@ -79,3 +79,20 @@ body {
   font-size: 14px;
   display: inline-block;
 }
+
+#plannerView {
+  display: flex;
+}
+
+.course-pool {
+  width: 300px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+.course-pool-list .course-pill {
+  cursor: grab;
+  margin-bottom: 10px;
+}
+
