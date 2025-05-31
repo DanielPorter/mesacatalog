@@ -1,4 +1,0 @@
-[
-  { "department": "CSCI", "code": "101", "title": "Introduction to Computer Science", "description": "An introductory course to computer science.", "units": 3, "prerequisites": "None" },
-  { "department": "MATH", "code": "201", "title": "Calculus I", "description": "A course covering the basics of calculus.", "units": 4, "prerequisites": "MATH101" }
-]
