@@ -1,0 +1,26 @@
+{
+  "miramar-math-150": {
+    "mapsTo": [
+      "ucb-math-1a"
+    ],
+    "notes": "Articulates as Calculus I at UC Berkeley"
+  },
+  "miramar-math-151": {
+    "mapsTo": [
+      "ucb-math-1b"
+    ],
+    "notes": "Articulates as Calculus II at UC Berkeley"
+  },
+  "miramar-math-254": {
+    "mapsTo": [
+      "ucb-math-54"
+    ],
+    "notes": "Articulates as Linear Algebra at UC Berkeley"
+  },
+  "miramar-math-252": {
+    "mapsTo": [
+      "ucb-math-53"
+    ],
+    "notes": "Articulates as Multivariable Calculus at UC Berkeley"
+  }
+}

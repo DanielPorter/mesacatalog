@@ -1,0 +1,36 @@
+{
+  "Mathematics Studies AA": {
+    "institution": "San Diego Miramar College",
+    "type": "major",
+    "requirements": [
+      {
+        "type": "required",
+        "courses": [
+          "miramar-math-150",
+          "miramar-math-151"
+        ]
+      },
+      {
+        "type": "choose-n",
+        "n": 3,
+        "courses": [
+          "miramar-math-245",
+          "miramar-math-254",
+          "miramar-cs-119",
+          "miramar-phys-195",
+          "miramar-phys-196"
+        ]
+      },
+      {
+        "type": "min-units-from-list",
+        "units": 6,
+        "courses": [
+          "miramar-math-252",
+          "miramar-math-255",
+          "miramar-cs-210",
+          "miramar-phil-205"
+        ]
+      }
+    ]
+  }
+}
