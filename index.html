@@ -1,207 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Course Catalog</title>
-  <style>
-    body {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: flex-start;
-      height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    #sidebar {
-      width: 200px;
-      height: 100%;
-      background-color: #f0f0f0;
-      padding: 20px;
-    }
-
-    #courseList {
-      max-width: 600px;
-      width: 100%;
-      padding: 20px;
-    }
-
-    .course-card {
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-      margin-bottom: 10px;
-      cursor: pointer;
-    }
-
-    .course-card:hover {
-      background-color: #f0f0f0;
-    }
-
-    .course-description {
-      display: none;
-    }
-
-    #searchInput {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box;
-    }
-
-    #departmentSelect {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box;
-    }
-
-    /* Add transition for course description */
-    .course-description {
-      display: none;
-      transition: max-height 0.3s ease-in-out;
-      overflow: hidden;
-    }
-
-    .course-card {
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-      margin-bottom: 10px;
-      cursor: pointer;
-      transition: background-color 0.3s ease-in-out;
-    }
-
-    .course-card:hover {
-      background-color: #f0f0f0;
-    }
-    
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Planner - Course Catalog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="sidebar">
-    <input type="text" id="searchInput" placeholder="Search for courses...">
-    <select id="departmentSelect">
-      <option value="">All Departments</option>
-      <!-- Department options will be dynamically added here -->
-    </select>
-  </div>
+    <div class="container">
+        <!-- Left sidebar with search -->
+        <div class="sidebar">
+            <h2>Course Search</h2>
+            <div class="search-filters">
+                <select id="institution">
+                    <option value="all">All Institutions</option>
+                    <option value="San Diego Miramar College">San Diego Miramar College</option>
+                    <option value="UC Berkeley">UC Berkeley</option>
+                </select>
+                <input type="text" id="search" placeholder="Search courses...">
+                <select id="department">
+                    <option value="all">All Departments</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Physics">Physics</option>
+                </select>
+            </div>
+        </div>
 
-  <div id="courseList">
-    <!-- Course cards will be dynamically added here -->
-  </div>
+        <!-- Course cards -->
+        <div class="courses-grid" id="coursesContainer"></div>
+    </div>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-    // Function to fetch course data from JSON file
-    async function fetchCourses() {
-      try {
-        const response = await fetch('courses.json');
-        const data = await response.json();
-        return data;
-      } catch (error) {
-        console.error('Error fetching courses:', error);
-      }
-    }
+    <!-- Pagination -->
+    <div class="pagination">
+        <button id="prevPage">Previous</button>
+        <span id="currentPage">1</span>
+        <button id="nextPage">Next</button>
+    </div>
 
-    // Function to fetch department data from JSON file
-    async function fetchDepartments() {
-      try {
-        const response = await fetch('department.json');
-        const data = await response.json();
-        return data;
-      } catch (error) {
-        console.error('Error fetching departments:', error);
-      }
-    }
-
-    // Function to generate department options
-    async function generateDepartmentOptions() {
-      const departments = await fetchDepartments();
-      const departmentSelect = document.getElementById('departmentSelect');
-      departments.forEach(department => {
-        const option = document.createElement('option');
-        option.value = department.code;
-        option.textContent = `${department.name} (${department.code})`;
-        departmentSelect.appendChild(option);
-      });
-    }
-
-// Function to generate course cards
-async function generateCourseCards() {
-  const courses = await fetchCourses();
-  const courseList = document.getElementById('courseList');
-  courseList.innerHTML = ''; // Clear previous content
-  courses.forEach(course => {
-    const card = document.createElement('div');
-    card.classList.add('course-card');
-    card.innerHTML = `<div>${course.department} ${course.code} - ${course.title}</div><div class="course-description"><strong>Description:</strong> ${course.description}<br><strong>Units:</strong> ${course.units}<br><strong>Prerequisites:</strong> ${course.prerequisites || "None"}</div>`;
-    const description = card.querySelector('.course-description');
-    // Initially hide the description
-    description.style.maxHeight = '0px';
-    card.addEventListener('click', () => {
-      // Toggle the max height
-      if (description.style.maxHeight === '0px') {
-        description.style.maxHeight = description.scrollHeight + 'px';
-      } else {
-        description.style.maxHeight = '0px';
-      }
-    });
-    courseList.appendChild(card);
-  });
-}
-
-    // Function to filter courses based on search input and department
-    function filterCourses() {
-      const searchInput = document.getElementById('searchInput').value.toLowerCase();
-      const departmentFilter = document.getElementById('departmentSelect').value;
-      const courseCards = document.querySelectorAll('.course-card');
-      courseCards.forEach(card => {
-        const courseTitle = card.querySelector('div').textContent.toLowerCase();
-        const courseDepartment = card.querySelector('div').textContent.split(' ')[0];
-        if ((courseTitle.includes(searchInput) || searchInput === '') && (departmentFilter === '' || courseDepartment === departmentFilter)) {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    }
-  
-    // Function to detect and block unwanted scripts
-  function blockUnwantedScripts() {
-    // Get all script elements on the page
-    var scriptElements = document.querySelectorAll('script');
-    // Loop through each script element
-    scriptElements.forEach(function(script) {
-      // Check if the script's src attribute matches a specific pattern or URL
-      if (script.src && script.src.includes('h1-check.js')) {
-        // If the script matches the unwanted pattern, hide or remove it
-        script.parentNode.removeChild(script);
-        // Alternatively, you can hide the script element:
-        // script.style.display = 'none';
-      }
-    });
-  }
-
-  // Call the blockUnwantedScripts function when the page is fully loaded
-  window.addEventListener('load', blockUnwantedScripts);
-
-    // Initial generation of course cards and department options
-    generateCourseCards();
-    generateDepartmentOptions();
-
-    // Event listener for search input
-    document.getElementById('searchInput').addEventListener('input', filterCourses);
-
-    // Event listener for department select
-    document.getElementById('departmentSelect').addEventListener('change', filterCourses);
-      });
-  </script>
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>

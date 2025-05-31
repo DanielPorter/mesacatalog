@@ -1,0 +1,32 @@
+[
+    {
+        "id": "UCB-MATH-1A",
+        "college": "UC Berkeley",
+        "department": "Mathematics",
+        "code": "MATH 1A",
+        "title": "Calculus I",
+        "prerequisites": [],
+        "terms": ["Fall", "Spring"],
+        "description": "Introduction to calculus, including limits, derivatives, and integrals."
+    },
+    {
+        "id": "UCB-CS-61A",
+        "college": "UC Berkeley",
+        "department": "Computer Science",
+        "code": "CS 61A",
+        "title": "Structure and Interpretation of Computer Programs",
+        "prerequisites": [],
+        "terms": ["Fall", "Spring", "Summer"],
+        "description": "Introduction to programming and computer science using Python."
+    },
+    {
+        "id": "UCB-PHYS-7A",
+        "college": "UC Berkeley",
+        "department": "Physics",
+        "code": "PHYS 7A",
+        "title": "Physics for Scientists and Engineers",
+        "prerequisites": ["MATH 1A"],
+        "terms": ["Fall", "Spring"],
+        "description": "Introduction to mechanics, waves, and thermodynamics."
+    }
+]

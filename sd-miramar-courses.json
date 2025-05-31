@@ -1,0 +1,3881 @@
+[
+    {
+      "id": "SAN-DIEGO-MIRAMAR-AAPI-124",
+      "college": "San Diego Miramar College",
+      "department": "Asian American Pacific Islander Studies",
+      "code": "124",
+      "title": "Introduction to Asian American and Pacific Islander Studies",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "This course is an introduction to Asian American and Pacific Islander (AAPI) Studies and the evolution of the disciplines within Ethnic Studies. Emphasis is placed on the formation of AAPI identities and experiences through the lens of equity, self-determination, liberation, decolonization, and antiracism. Topics include engagement with the U.S. political and legal system, immigration legislation, white supremacy, and social justice movements. Intended for all students interested in AAPI Studies.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ACCT-102",
+      "college": "San Diego Miramar College",
+      "department": "Accounting",
+      "code": "102",
+      "title": "Basic Accounting",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A study of the theory and practice of accounting, focusing on transactions, bookkeeping, journals, ledgers, and payroll. Designed as preparation for the CPA exam.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ACCT-116A",
+      "college": "San Diego Miramar College",
+      "department": "Accounting",
+      "code": "116A",
+      "title": "Financial Accounting",
+      "units": "4",
+      "prerequisites": ["102 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An overview of financial accounting covering the accounting cycle, GAAP, financial statement preparation, and analysis. Focuses on asset, liability, and equity valuation, revenue recognition, and ethics. Intended for accounting majors.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ACCT 110"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ACCT-116B",
+      "college": "San Diego Miramar College",
+      "department": "Accounting",
+      "code": "116B",
+      "title": "Managerial Accounting",
+      "units": "4",
+      "prerequisites": ["116A (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Explores how managers use accounting information for decision-making, planning, and control. Topics include cost behavior, cost-volume-profit analysis, budgeting, and cost control. Intended for accounting and business administration majors.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ACCT 120"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ACCT-120",
+      "college": "San Diego Miramar College",
+      "department": "Accounting",
+      "code": "120",
+      "title": "Federal Income Tax",
+      "units": "3",
+      "prerequisites": ["116A (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces tax concepts and federal income tax laws, emphasizing social, economic, and political factors. Differentiates between tax avoidance and evasion. Suitable for accounting majors or those interested in tax law.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ACCT-121",
+      "college": "San Diego Miramar College",
+      "department": "Accounting",
+      "code": "121",
+      "title": "California Income Tax",
+      "units": "1",
+      "prerequisites": ["Concurrent with 120"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Examines California personal income taxation and tax planning, focusing on differences between state and federal tax requirements.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ACCT-135",
+      "college": "San Diego Miramar College",
+      "department": "Accounting",
+      "code": "135",
+      "title": "Principles of Auditing",
+      "units": "3",
+      "prerequisites": ["116A (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Covers financial statement auditing and assurance services, including ethics, planning, fieldwork, and reporting. Intended for accounting majors.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ACCT-150",
+      "college": "San Diego Miramar College",
+      "department": "Accounting",
+      "code": "150",
+      "title": "Computer Accounting Applications",
+      "units": "3",
+      "prerequisites": ["102 or 116A (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Demonstrates the use of accounting software for managing the full accounting cycle, including payroll and financial statement analysis. Designed for accounting majors and those interested in computer accounting.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-101",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "101",
+      "title": "Introduction to Administration of Justice",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces the philosophy and history of administration of justice, covering crime, law enforcement organization, and professional career opportunities.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID AJ 110"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-102",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "102",
+      "title": "Criminal Law I",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces criminal law by exploring the scope, sources, and classifications of crimes, including definitions, elements of crime, evidence, and defenses.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "C-ID AJ 120"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-106",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "106",
+      "title": "Diversity and Community Relations",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Examines the complex relationship between communities and the justice system, focusing on multicultural challenges and law enforcement-community interactions.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-127A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "127A",
+      "title": "Physical Conditioning I",
+      "units": "1",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces physical conditioning skills for public safety occupations, focusing on stretching, cardiovascular, and strength exercises.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-128A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "128A",
+      "title": "Defensive Tactics I",
+      "units": "1",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides introductory skills in defensive tactics, including control holds and takedowns, with an introduction to related California Penal Code sections.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-160",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "160",
+      "title": "Criminal Law II",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces topics such as dangerous weapons control, homicide, kidnapping, and other serious offenses, providing a foundational understanding of criminal law.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-161",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "161",
+      "title": "Juvenile Procedures",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides an overview of the juvenile justice system, including the organization, functions, and legal procedures pertaining to juvenile offenders.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-162",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "162",
+      "title": "Criminal Investigation",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces techniques, procedures, and ethical considerations in crime scene investigations, including evidence collection and analysis.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "C-ID AJ 140"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-167",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "167",
+      "title": "Report Writing",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Focuses on the various forms and formats of written communication in law enforcement, including crime scene reports, evidence documentation, and case preparation.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-180",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "180",
+      "title": "Drug Abuse and Law Enforcement",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Analyzes drug abuse issues encountered in law enforcement, covering drug laws, categories, effects, and paraphernalia. Enrollment may be limited.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-182",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "182",
+      "title": "Street Gangs and Law Enforcement",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Presents an overview of street gang dynamics, criminal activities, and law enforcement strategies for intervention and prosecution.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-201",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "201",
+      "title": "Criminal Procedure",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces the origins, development, and legal basis of criminal procedure, including court processes, trial procedures, and rules of evidence.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "C-ID AJ 122"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-210",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "210",
+      "title": "Rules of Evidence",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Covers the legal principles governing the admissibility of testimony, documents, and physical evidence in criminal trials.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "C-ID AJ 124"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-220",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "220",
+      "title": "Law Enforcement Forensics",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces forensic techniques used in criminal investigations, including evidence collection, pattern analysis, and laboratory methods.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "C-ID AJ 150"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-230",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "230",
+      "title": "Constitutional Law I",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Examines the sources and limitations of government power as defined in the U.S. Constitution, including interpretations by the Supreme Court.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-260",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "260",
+      "title": "POST Certified Regional Academy",
+      "units": "24",
+      "prerequisites": ["101 (C or better)", "English 101/105 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A comprehensive POST-certified course providing law enforcement skills and training for initial peace officer employment.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-270",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "270",
+      "title": "Work Experience",
+      "units": "Variable (1-4)",
+      "prerequisites": ["Permission required"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A supervised work experience course designed to develop career awareness and work habits related to a student’s college major.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-300A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "300A",
+      "title": "First Aid",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides first aid training with an emphasis on emergency situations, covering CPR, emergency childbirth, and other life-saving techniques.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-304A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "304A",
+      "title": "Intermediate Traffic Accident Investigation",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better) or POST Certified Basic Academy"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A POST-certified course that provides skills for identifying and analyzing tire marks and other evidence at traffic accident scenes.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-305A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "305A",
+      "title": "Advanced Traffic Accident Investigation",
+      "units": "1.5",
+      "prerequisites": ["304A (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An advanced POST-certified course that builds on traffic accident investigation techniques to determine collision sequences and document traffic collisions.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-307A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "307A",
+      "title": "Traffic Enforcement Radar Certification",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better) or POST Certified Basic Academy"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A POST-certified course covering the legal and technical use of radar equipment for traffic enforcement.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-312A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "312A",
+      "title": "Basic Supervisory Course",
+      "units": "1.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces the principles and practical skills required for first-line law enforcement supervision.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-313A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "313A",
+      "title": "Public Safety Dispatcher’s Basic Course",
+      "units": "2.5",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides entry-level skills and knowledge for public safety dispatchers, covering legal systems, radio procedures, and emergency communication.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-322A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "322A",
+      "title": "Basic Traffic Accident Investigation",
+      "units": "1",
+      "prerequisites": ["260 (C or better) or POST Certified Basic Academy"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A POST-certified course focused on investigating and documenting traffic collisions, including writing violation notices based on collision evidence.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-323A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "323A",
+      "title": "S.T.C. Certified Corrections Officer Core Course",
+      "units": "11.5",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An intensive POST-certified course providing entry-level training for correctional officers, covering facility operations, ethics, and defensive tactics.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-324A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "324A",
+      "title": "BSCC Certified Supplemental Core Course",
+      "units": "1",
+      "prerequisites": ["260 (C or better) or POST Certification"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A BSCC-certified course providing entry-level corrections training, covering inmate supervision, facility security, and emergency procedures.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-330A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "330A",
+      "title": "POST Certified Field Training Officer Course",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces the roles and responsibilities of Field Training Officers, focusing on ethics, leadership, and instructional techniques.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-332A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "332A",
+      "title": "POST Certified Driving Under the Influence Course",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides instruction on the detection, apprehension, and prosecution of DUI drivers, with emphasis on physical symptoms and standardized sobriety tests.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-333B",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "333B",
+      "title": "POST Certified Firearms Instructors Course",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Trains peace officer firearms instructors on safety, course design, and instructional techniques for firearms training.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-345",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "345",
+      "title": "Forensic Evidence Technician (FET)",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides skills for identifying, documenting, collecting, and preserving physical evidence, including DNA, fingerprints, and firearm-related evidence.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-348A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "348A",
+      "title": "Essentials of Investigation",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better) or POST Certified Basic Academy"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Enhances investigative skills with a focus on techniques, legal issues, and officer safety, preparing students for investigative roles.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-351A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "351A",
+      "title": "Chemical Agents Training for Peace Officers",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Covers the use, effects, and tactics associated with liquid aerosol chemical agents for law enforcement purposes.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-357A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "357A",
+      "title": "832 PC Laws of Arrest",
+      "units": "1",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Meets POST requirements for the Laws of Arrest portion of Section 832 of the California Penal Code, covering ethics, decision-making, and arrest procedures.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-359",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "359",
+      "title": "Field Training Officer Update",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Develops instructional skills for current police officers serving as Field Training Officers, focusing on training techniques and evaluation methods.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-361D",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "361D",
+      "title": "Defensive Tactics Building Searches",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Develops skills and techniques for building searches, focusing on approaches, entry methods, and officer safety.",
+      "grading": "Grade Only",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-361L",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "361L",
+      "title": "Less-Lethal Munitions Training (LLMT)",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides training on less-lethal munitions, including safety, terminology, and use of force guidelines.",
+      "grading": "Grade Only",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-361M",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "361M",
+      "title": "Less-Lethal/Taser Training",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Familiarizes students with various less-lethal weapons and tactics, including tasers and beanbag shotguns.",
+      "grading": "Grade Only",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-361R",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "361R",
+      "title": "Regional Officer Training",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Trains students on new legislation, emergency techniques, and technical skills necessary for regional law enforcement operations.",
+      "grading": "Grade Only",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-361S",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "361S",
+      "title": "Continuing Professional Training for Sheriff Deputies",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides advanced technical and proficiency training for sheriff deputies, including use of force and defensive tactics.",
+      "grading": "Grade Only",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-366",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "366",
+      "title": "Radar-Laser Operator (LIDAR)",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Prepares law enforcement officers to operate radar and laser speed measurement devices, covering scientific principles and legal considerations.",
+      "grading": "Grade Only",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-369",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "369",
+      "title": "Drug Influence: 11550",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides an overview of illegal drug characteristics, effects, and detection methods from a law enforcement perspective.",
+      "grading": "Grade Only",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-378",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "378",
+      "title": "Defensive Tactics Instructor",
+      "units": "1.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Prepares students to instruct defensive tactics courses, focusing on presentation skills, legal considerations, and tactical techniques.",
+      "grading": "Grade Only",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-379",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "379",
+      "title": "Academy Instructor Certification Course (AICC)",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Prepares current peace officers to serve as instructors in POST-certified courses, covering instructional design and delivery.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-392L",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "392L",
+      "title": "Special Topics in Instructor Development",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Prepares students to be instructors in various law enforcement subjects through specialized instruction in instructional theory and techniques.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-393L",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "393L",
+      "title": "Special Topics in Field Tactics",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Offers specialized instruction in public safety field tactics, including defensive tactics and weapons proficiency training.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-394L",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "394L",
+      "title": "Special Topics in Law Enforcement Policy and Procedure",
+      "units": "0.5",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides instruction in current law enforcement policies and procedures, including legislative updates and procedural guidelines.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-392S",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "392S",
+      "title": "Special Topics in Instructor Development",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A variant of Special Topics in Instructor Development, delivered in a shorter format with focused instructional content.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-393S",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "393S",
+      "title": "Special Topics in Field Tactics",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A shortened version of the Special Topics in Field Tactics course, offering specialized instruction in tactical methods.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-394S",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "394S",
+      "title": "Special Topics in Law Enforcement Policy and Procedure",
+      "units": "0.2",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A condensed version of the Special Topics in Law Enforcement Policy and Procedure course, focusing on key legislative and procedural updates.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-395A",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "395A",
+      "title": "Arrest and Control",
+      "units": "0.1",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides essential tactical knowledge and skills for safely arresting and controlling a suspect, as required in the POST Perishable Skills Training Program.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-395B",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "395B",
+      "title": "Driver Training/Awareness",
+      "units": "0.05",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Covers basic driving principles, legal and moral aspects, and defensive driving techniques as part of the POST Perishable Skills Training Program.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ADJU-395C",
+      "college": "San Diego Miramar College",
+      "department": "Administration of Justice",
+      "code": "395C",
+      "title": "Strategic Communications/De-Escalation",
+      "units": "0.1",
+      "prerequisites": ["260 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides techniques for effective communication and de-escalation during critical incidents, aimed at reducing stress and improving outcomes during public safety interactions.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-AMSL-120",
+      "college": "San Diego Miramar College",
+      "department": "American Sign Language/Interpreting",
+      "code": "120",
+      "title": "American Sign Language Level I",
+      "units": "5",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An entry-level course introducing American Sign Language (ASL) and fingerspelling within Deaf Culture, focusing on basic expressive and receptive skills.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-AMSL-121",
+      "college": "San Diego Miramar College",
+      "department": "American Sign Language/Interpreting",
+      "code": "121",
+      "title": "American Sign Language Level II",
+      "units": "5",
+      "prerequisites": ["120 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A continuation of ASL study at a beginning-intermediate level, expanding vocabulary and conversational skills.",
+      "grading": "Grade Only",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ANTH-102",
+      "college": "San Diego Miramar College",
+      "department": "Anthropology",
+      "code": "102",
+      "title": "Introduction to Biological Anthropology",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A survey of human evolution, variation, and adaptation, including the study of primates, human heredity, and fossil records of early hominins.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ANTH 110"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ANTH-103",
+      "college": "San Diego Miramar College",
+      "department": "Anthropology",
+      "code": "103",
+      "title": "Introduction to Cultural Anthropology",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A survey of cultural anthropology using a comparative, cross-cultural approach to examine how societies adapt to their environments.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ANTH 120"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ANTH-104",
+      "college": "San Diego Miramar College",
+      "department": "Anthropology",
+      "code": "104",
+      "title": "Laboratory in Biological Anthropology",
+      "units": "1",
+      "prerequisites": ["Concurrent enrollment in 102 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A practical laboratory course accompanying Biological Anthropology, focusing on genetics, human variation, and osteology.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ANTH-107",
+      "college": "San Diego Miramar College",
+      "department": "Anthropology",
+      "code": "107",
+      "title": "Introduction to Archaeology",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An introductory study of archaeology focusing on its history, methods, and theories, with emphasis on data collection and cultural reconstruction.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ANTH 150"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ANTH-290",
+      "college": "San Diego Miramar College",
+      "department": "Anthropology",
+      "code": "290",
+      "title": "Independent Study",
+      "units": "Variable (1-3)",
+      "prerequisites": ["Permission required"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Allows students to conduct independent research or projects in Anthropology under a written contract with an instructor.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-100",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "100",
+      "title": "Art Orientation",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An introductory course surveying the visual arts, designed to expose students to various aesthetic approaches and artistic orientations.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": []
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-107",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "107",
+      "title": "Contemporary Art",
+      "units": "3",
+      "prerequisites": ["None"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A survey of contemporary art and architecture from the late 20th century to the present, examining theoretical and cultural influences.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-109",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "109",
+      "title": "Modern Art",
+      "units": "3",
+      "prerequisites": ["110 & 111 (C or better)", "English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Provides a survey of modern art and architecture from the 19th to mid-20th century, focusing on theoretical and cultural developments.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-110",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "110",
+      "title": "Art History: Prehistoric to Gothic",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "A survey of Western visual arts from prehistory through the Gothic period, focusing on representative art and architecture.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-111",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "111",
+      "title": "Art History: Renaissance to Modern",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Surveys Western visual arts from the Renaissance to the modern era, examining key artistic movements and architectural developments.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ARTH 120"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-113",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "113",
+      "title": "Arts of Africa, Oceania, and the Americas",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces the visual arts of Africa, Oceania, and the Americas, emphasizing cultural, religious, and social influences.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-125",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "125",
+      "title": "Art History: Arts of the Asian Continent",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Surveys paintings, sculpture, and architecture from various Asian cultures, focusing on historical and cultural influences.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ARTH 130"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-150A",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "150A",
+      "title": "Two-Dimensional Design",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces principles of two-dimensional design and visual organization to create coherent images.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ARTS 100"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-151",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "151",
+      "title": "Three-Dimensional Design",
+      "units": "3",
+      "prerequisites": ["150A (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An introduction to organizing visual space into three-dimensional structures, building on principles from Two-Dimensional Design.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ARTS 101"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-155A",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "155A",
+      "title": "Freehand Drawing I",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Develops the ability to translate three-dimensional observations into two-dimensional drawings using art theory and composition.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ARTS 110"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-155B",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "155B",
+      "title": "Freehand Drawing II",
+      "units": "3",
+      "prerequisites": ["155A (C or better)", "English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An intermediate course that applies art principles to develop more refined freehand drawing skills, incorporating interdisciplinary approaches.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ARTS 205"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-165A",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "165A",
+      "title": "Composition in Painting I",
+      "units": "3",
+      "prerequisites": ["155A (C or better)", "150A (C or better)", "English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces oil and acrylic painting techniques with an emphasis on composition, color, and design principles.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC", "C-ID ARTS 210"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-165B",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "165B",
+      "title": "Composition in Painting II",
+      "units": "3",
+      "prerequisites": ["165A (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Continues the exploration of oil and acrylic painting with a focus on advanced compositional techniques.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-165C",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "165C",
+      "title": "Composition in Painting III",
+      "units": "3",
+      "prerequisites": ["165B (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Advances painting techniques with a focus on creative expression and individualized assignments.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-165D",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "165D",
+      "title": "Composition in Painting IV",
+      "units": "3",
+      "prerequisites": ["165C (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "The final semester of introductory painting methods, emphasizing contemporary techniques and large format work.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-170A",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "170A",
+      "title": "Contemporary Crafts I",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)", "150A (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Introduces techniques and processes in various crafts media, including ceramics, wood, fibers, glass, plastic, and metal.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "C-ID ARTS 280"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-170B",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "170B",
+      "title": "Contemporary Crafts II",
+      "units": "3",
+      "prerequisites": ["170A (C or better)", "English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Continues the study of crafts media at an intermediate level with an emphasis on individual expression and exploration.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-170C",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "170C",
+      "title": "Contemporary Crafts III",
+      "units": "3",
+      "prerequisites": ["170B (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "Advanced exploration of crafts media, focusing on structured development and preparation of work for public exhibition.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU"]
+    },
+    {
+      "id": "SAN-DIEGO-MIRAMAR-ARTF-195A",
+      "college": "San Diego Miramar College",
+      "department": "Art – Fine Art",
+      "code": "195A",
+      "title": "Ceramics I",
+      "units": "3",
+      "prerequisites": ["English 101 (C or better)"],
+      "corequisites": ["None"],
+      "terms": [],
+      "description": "An introductory ceramics course where students design and construct hand-built and wheel-thrown ceramic works.",
+      "grading": "Letter Grade or Pass/No Pass Option",
+      "applicability": ["AA/AS", "CSU", "UC"]
+    },
+    {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-195A",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "195B",
+        "title": "Ceramics II",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 165A (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This course is an intermediate level ceramics course in which students design and construct wheel thrown and hand-built ceramic objects. Emphasis is placed on form and surface enrichment. This course is designed for art majors and for students interested in developing ceramic skills. ",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-165C",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "165C",
+        "title": "Composition in Painting III",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 165B (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This course is the third semester of introduction to oil and acrylic painting methods and techniques. Emphasis is placed on composition, color, and application of general design principles at a more advanced level of creativity and sophistication. This course is designed to develop students’ creative abilities and critical thinking in visual terms through the use of individual assignments tailored to students’ skills. This course is intended for students majoring in Art and those who wish to improve their artistic skills. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-165D",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "165D",
+        "title": "Composition in Painting IV",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 165C (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This course is the fourth and final semester of introduction to oil and acrylic painting methods and techniques. Emphasis is placed on contemporary methods and theories related to conceptualism and new genre. Students produce large format and mural scale paintings. This course is designed to develop students’ creative abilities and critical thinking in visual terms through the use of individual assignments tailored to students’ skills. This course is intended for students majoring in Art and those who wish to improve their artistic skills. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-170A",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "170A",
+        "title": "Contemporary Crafts I",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This course teaches students techniques, methods, and processes to produce a variety of crafts. Students develop projects using various media including ceramics, wood, fibers, glass, plastic, and metal. Students explore design principles, expressive quality, and individual ideas. This course is intended for students pursuing careers or future studies in Studio Arts, Applied Design, or Industrial Arts. (FT) AA/AS; CSU; C-ID ARTS 280.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "C-ID ARTS 280"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-170B",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "170B",
+        "title": "Contemporary Crafts II",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 170A (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This course continues the study of various crafts media at an intermediate level. Emphasis is placed on individual exploration and expression. This course is intended for students pursuing careers or future studies in Studio Art, Applied Design, or Industrial Design. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-170C",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "170C",
+        "title": "Contemporary Crafts III",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 170B (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This course continues the study of various crafts media at an advanced level. Emphasis is placed on structured development of media and preparation of work for public exhibition. This course is intended for students pursuing careers or future studies in Studio Art, Applied Design, or Industrial Design. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-195A",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "195A",
+        "title": "Ceramics I",
+        "units": "3",
+        "prerequisites": ["English 101 (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This course is an introductory level ceramics course in which students design and construct hand-built and wheel-thrown ceramic objects. This course is designed for art majors and all students interested in developing ceramic skills. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-195B",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "195B",
+        "title": "Ceramics II",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 195A (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This course is an intermediate level ceramics course in which students design and construct wheel‐thrown and hand‐built ceramic objects. Emphasis is placed on form and surface enrichment. This course is designed for art majors and for students interested in developing ceramic skills. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-195C",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "195C",
+        "title": "Ceramics III",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 195B (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This is an advanced‐level ceramics course in which students design and construct wheel‐thrown and hand‐built ceramic forms. Students select an area of focus emphasizing form and surface enrichment. Students develop, mix, and use clay and glazes, as well as load and fire both gas and electric kilns. This course is intended for art majors and all students interested in developing ceramics skills. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-210A",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "210A",
+        "title": "Life Drawing I",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 155A (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This is a basic course in drawing the human form as a sequence of studies from live models. Accurate and expressive translations of the mass as two-dimensional drawings are refined in a variety of achromatic media. This course is designed for students who are majoring in fine art and is also a relevant foundation for those that are interested in disciplines that use the human form, such as animation and fashion design. (FT) AA/AS; CSU; UC; C-ID ARTS 200.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC", "C-ID ARTS 200"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-210B",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "210B",
+        "title": "Life Drawing II",
+        "units": "3",
+        "prerequisites": ["Art-Fine Art 210A (C or better)"],
+        "corequisites": ["None"],
+        "terms": [],
+        "description": "This is an intermediate course in drawing the human form as a sequence of studies from live models. Students work with color and experiment with concepts related to figure drawing. This course is designed for students who are majoring in fine art and is also a relevant foundation for study in disciplines that use the human form, such as animation and fashion design. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTF-270",
+        "college": "San Diego Miramar College",
+        "department": "Art – Fine Art",
+        "code": "270",
+        "title": "Work Experience",
+        "units": "1–4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "This course provides on-the-job learning experiences for students employed in an art-related job or internship. Students develop workplace competencies, critical thinking skills, and problem solving abilities through the creation and achievement of job-related behavioral learning objectives. One unit of credit may be earned for every 54 hours of work experience. A maximum of fourteen credit hours for all work experience subject areas may be earned during one enrollment period. This course is intended for students majoring or interested in the field of fine art. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ARTG-100",
+        "college": "San Diego Miramar College",
+        "department": "Art – Graphic Design",
+        "code": "100",
+        "title": "Basic Graphic Design",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "This course is an introduction to the fundamental principles of graphic communication. Instruction incorporates traditional hand-rendering methods as well as use of the computer. In this class the fundamental principles and elements of design are identified and applied to two and three dimensional projects. This course is intended for students majoring in graphic design and anyone interested in basic graphic design. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ASTR-101",
+        "college": "San Diego Miramar College",
+        "department": "Astronomy",
+        "code": "101",
+        "title": "Descriptive Astronomy",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "This course is an introductory survey of contemporary astronomy. Topics covered include the solar system, stars and stellar evolution, the Milky Way galaxy and cosmology. This course is intended for students with a general interest in astronomy. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ASTR-102",
+        "college": "San Diego Miramar College",
+        "department": "Astronomy",
+        "code": "102",
+        "title": "Exploring The Solar System And Life Beyond The Earth",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "This course investigates the origin of our Solar System and how its contents changed with time. Analysis of the physical properties of planets, moons, rings, comets, and asteroids are explored. The course also surveys the history of space exploration and recent discoveries of exoplanets, and explores the potential for life beyond Earth. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ASTR-109",
+        "college": "San Diego Miramar College",
+        "department": "Astronomy",
+        "code": "109",
+        "title": "Practice in Observing",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": ["Concurrent enrollment in Astronomy 101 or Astronomy 102 (C or better)"],
+        "terms": [],
+        "description": "This is a laboratory field experience course in general astronomy. Emphasis is placed on constellations, celestial cycle interpretation, and descriptive observations of astronomical objects and events with or without the use of telescopes. This course is for all students interested in gaining field experience in astronomy. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-ASTR-111",
+        "college": "San Diego Miramar College",
+        "department": "Astronomy",
+        "code": "111",
+        "title": "Astronomy Laboratory",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": ["Concurrent enrollment in Astronomy 101 or Astronomy 102 (C or better)"],
+        "terms": [],
+        "description": "This laboratory course features exercises and experiments covering topics in astronomy – from telescopic observations to computer-simulated experiments – and is designed for students interested in the subject. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-151T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "151T",
+        "title": "Honda/Toyota Quick Service Lube, Pre-Delivery Inspection Technician",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "This course provides an overview of Honda- and Toyota-specific automotive quick services and new/used vehicle preparation. Topics include vehicle inspections, estimate preparation, fluid and filter changes, proper hazardous waste disposal, minor electrical repairs, and road-testing techniques. It is intended for automotive technology students seeking Honda Professional Automotive Career Training (PACT) or Toyota Technician (T-TEN) certification. (FT) AA/AS; CSU.",
+        "grading": "Pass/No Pass",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-153G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "153G",
+        "title": "Introduction to Automotive Technology",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "This course provides an overview of the automotive industry, including a basic understanding of how automobile systems work and an introduction to automotive safety procedures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-156G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "156G",
+        "title": "Engine and Related Systems",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 153G (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "A detailed study of the internal combustion engine – its disassembly, parts identification, and reassembly – along with reviews of fuel, electrical, cooling, and lubrication systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-156T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "156T",
+        "title": "Honda/Toyota Engine and Related Systems",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 151T (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "A detailed study of Honda- and Toyota-specific internal combustion engines and related systems. Topics include disassembly, parts identification, and reassembly, along with reviews of fuel, electrical, cooling, and lubrication systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-161G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "161G",
+        "title": "Basic Electricity and Electrical Systems Fundamentals",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 153G (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers basic automotive electrical principles, including body wiring, starting, and charging systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-161T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "161T",
+        "title": "Honda/Toyota Basic Electricity and Electrical Systems Fundamentals",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 151T (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Focuses on basic electrical principles with Honda/Toyota-specific content regarding body wiring, starting, and charging systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-162G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "162G",
+        "title": "Advanced Electrical",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 161G (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Prepares students to diagnose and repair complex electrical/electronic systems in modern automobiles, with an introduction to hybrid vehicle systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-162T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "162T",
+        "title": "Honda/Toyota Advanced Electrical",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 161T (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Focuses on diagnosing and repairing complex electrical/electronic systems in Honda and Toyota vehicles, including an introduction to hybrid systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-165G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "165G",
+        "title": "Engine Performance",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 161G (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers engine management basics, including sensors, ignition, fuel, and air induction systems; introduces engine diagnosis procedures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-165T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "165T",
+        "title": "Honda/Toyota Engine Performance",
+        "units": "4",
+        "prerequisites": [
+          "Automotive Technology 156T (C or better)",
+          "Automotive Technology 161T (C or better)"
+        ],
+        "corequisites": ["Automotive Technology 162T (C or better)"],
+        "terms": [],
+        "description": "Covers Honda/Toyota engine management basics including sensor functions, ignition, fuel, and air induction systems, plus introduction to engine diagnosis. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-167G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "167G",
+        "title": "Advanced Engine Performance",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 161G (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Builds on Engine Performance with an emphasis on diagnostics – studying system monitors, misfires, and sensor function. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-167T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "167T",
+        "title": "Honda/Toyota Advanced Engine Performance",
+        "units": "4",
+        "prerequisites": [
+          "Automotive Technology 162T (C or better)",
+          "Automotive Technology 165T (C or better)"
+        ],
+        "corequisites": ["Automotive Technology 167T (C or better)"],
+        "terms": [],
+        "description": "An advanced course in engine performance focusing on Honda/Toyota-specific diagnostic techniques. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-169G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "169G",
+        "title": "Climate Control Systems",
+        "units": "4",
+        "prerequisites": [
+          "Automotive Technology 153G (C or better)",
+          "Automotive Technology 161G (C or better)",
+          "Automotive Technology 162G (C or better)"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces automotive climate control systems including HVAC components, diagnostics, and repair procedures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-169T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "169T",
+        "title": "Honda/Toyota Climate Control Systems",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 161T (C or better)"],
+        "corequisites": ["Automotive Technology 162T (C or better)"],
+        "terms": [],
+        "description": "Focuses on Honda/Toyota-specific climate control systems, including diagnostics and repair of HVAC components. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-172G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "172G",
+        "title": "Manual Drive Train and Axles",
+        "units": "4",
+        "prerequisites": [
+          "Automotive Technology 153G (C or better)",
+          "Automotive Technology 161G (C or better)",
+          "Automotive Technology 162G (C or better)"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Familiarizes students with manual transmissions, final drives, and transaxles; covers clutches, transfer cases, and drive systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-172T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "172T",
+        "title": "Honda/Toyota Manual Drive Train and Axles",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 161T (C or better)"],
+        "corequisites": ["Automotive Technology 162T (C or better)"],
+        "terms": [],
+        "description": "Covers Honda/Toyota-specific manual transmissions, final drives, and transaxles; includes discussion of clutches, transfer cases, and drive systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-174G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "174G",
+        "title": "Automatic Transmissions/Axles",
+        "units": "4",
+        "prerequisites": [
+          "Automotive Technology 153G (C or better)",
+          "Automotive Technology 161G (C or better)",
+          "Automotive Technology 162G (C or better)"
+        ],
+        "corequisites": ["Automotive Technology 167G (C or better)"],
+        "terms": [],
+        "description": "Covers hydraulically and electronically controlled transmissions and transaxles, including principles of hydraulics and systematic diagnosis. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-174T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "174T",
+        "title": "Honda/Toyota Automatic Transmissions/Axles",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 165T (C or better)"],
+        "corequisites": ["Automotive Technology 167T (C or better)"],
+        "terms": [],
+        "description": "Focuses on Honda/Toyota-specific automatic transmissions and axles, including hydraulics and diagnostic procedures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-176G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "176G",
+        "title": "Automotive Brake Systems",
+        "units": "4",
+        "prerequisites": [
+          "Automotive Technology 153G (C or better)",
+          "Automotive Technology 161G (C or better)",
+          "Automotive Technology 162G (C or better)"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers brake system diagnosis and replacement procedures including inspection, measurement, resurfacing, and system adjustments. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-176T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "176T",
+        "title": "Honda/Toyota Automotive Brake Systems",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 161T (C or better)"],
+        "corequisites": ["Automotive Technology 162T (C or better)"],
+        "terms": [],
+        "description": "Teaches Honda/Toyota-specific brake system diagnosis and replacement including component inspection, resurfacing, bleeding, and adjustments. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-178G",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "178G",
+        "title": "Suspension, Steering and Handling",
+        "units": "4",
+        "prerequisites": [
+          "Automotive Technology 153G (C or better)",
+          "Automotive Technology 161G (C or better)"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers theory and repair of automotive suspension, steering, and handling systems, including components and alignment. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-178T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "178T",
+        "title": "Honda/Toyota Suspension, Steering and Handling",
+        "units": "4",
+        "prerequisites": ["Automotive Technology 151T (C or better)"],
+        "corequisites": ["Automotive Technology 161T (C or better)"],
+        "terms": [],
+        "description": "Covers Honda/Toyota-specific suspension, steering, and handling systems with an emphasis on repair and diagnostic techniques. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AUTO-180T",
+        "college": "San Diego Miramar College",
+        "department": "Automotive Technology",
+        "code": "180T",
+        "title": "Honda/Toyota Hybrid Electric Vehicle (HEV) Systems",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": ["Automotive Technology 174T (C or better)"],
+        "terms": [],
+        "description": "Provides an overview of hybrid electric vehicle systems for Honda/Toyota, designed for students pursuing related automotive certifications. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-101",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "101",
+        "title": "Private Pilot Ground School",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [
+          "Concurrent enrollment in Aviation 101L (C or better)",
+          "Aviation 133 (C or better)"
+        ],
+        "terms": [],
+        "description": "Introduces basic aeronautical science, flight principles, aircraft systems, and flight planning. Combined with AVIA 133, it fulfills FAA Private Pilot Knowledge Test requirements. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-101L",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "101L",
+        "title": "Private Pilot Flight Lab",
+        "units": "1",
+        "prerequisites": ["Concurrent enrollment in Aviation 101 (C or better) or FAA-issued Private Pilot Certificate"],
+        "corequisites": ["Concurrent enrollment in Aviation 133 (C or better)"],
+        "terms": [],
+        "description": "Provides hands-on introduction to airplane operations and flight maneuvers using an aviation training device (flight simulator). (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-105",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "105",
+        "title": "Introduction to Aviation and Aerospace",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides an overview of aviation history, regulation, operations, and career paths in both aviation and aerospace. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-115",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "115",
+        "title": "Aviation Weather",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "An introduction to atmospheric science with applications to flight, covering topics from air masses to severe weather. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU", "UC"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-125",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "125",
+        "title": "Aviation and Airport Management",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces the major aspects of aviation and airport management including planning, operations, security, and career opportunities. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-128",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "128",
+        "title": "Group Dynamics for High Risk Teams",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces fundamentals of Team Resource Management (TRM) for high-risk teams, with emphasis on error management and leadership. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-133",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "133",
+        "title": "Human Factors in Aviation",
+        "units": "3",
+        "prerequisites": ["Aviation 101 (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Examines decision-making, human error, and crew resource management to enhance aviation safety. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-151",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "151",
+        "title": "Helicopter Ground School",
+        "units": "3",
+        "prerequisites": ["Aviation 101 (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers helicopter aerodynamics, instruments, performance, and related topics; when combined with other courses, fulfills FAA Helicopter Private Pilot Knowledge Test requirements. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-161",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "161",
+        "title": "Remote Pilot Ground School",
+        "units": "3",
+        "prerequisites": ["Aviation 101 (C or better)", "Aviation 161L (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Prepares students to meet FAA requirements for operating small unmanned aircraft systems (sUAS) for commercial purposes. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-161L",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "161L",
+        "title": "Remote Pilot Flight Lab",
+        "units": "1",
+        "prerequisites": ["Aviation 161 (C or better)", "FAA-issued Remote Pilot Certificate"],
+        "corequisites": ["Aviation 101L (C or better)"],
+        "terms": [],
+        "description": "A lab course offering hands-on practice in unmanned aircraft flight operations using a simulator. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-195",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "195",
+        "title": "Instrument Ground School",
+        "units": "3",
+        "prerequisites": ["Aviation 101 (C or better)"],
+        "corequisites": [
+          "Concurrent enrollment in Aviation 195L",
+          "Aviation 133 (C or better)"
+        ],
+        "terms": [],
+        "description": "Introduces basic Instrument Flight Rules (IFR) procedures, regulations, and techniques including instruments, airspace, weather, and flight planning. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-195L",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "195L",
+        "title": "Basic Instrument Flight Lab",
+        "units": "1",
+        "prerequisites": ["Aviation 101 and Aviation 101L (C or better)"],
+        "corequisites": [
+          "Concurrent enrollment in Aviation 195 (C or better)",
+          "Aviation 133 (C or better)"
+        ],
+        "terms": [],
+        "description": "Provides hands-on introduction to IFR procedures and flight techniques using a simulator. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-196L",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "196L",
+        "title": "Advanced Instrument Flight Lab",
+        "units": "1",
+        "prerequisites": ["Aviation 195 and Aviation 195L (C or better)"],
+        "corequisites": ["Aviation 133 (C or better)"],
+        "terms": [],
+        "description": "An advanced lab course providing practice in IFR procedures and techniques for instrument flight certification. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-201",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "201",
+        "title": "Commercial Pilot Ground School",
+        "units": "3",
+        "prerequisites": ["Aviation 101 (C or better)"],
+        "corequisites": ["Aviation 133 (C or better)"],
+        "terms": [],
+        "description": "An overview of advanced aeronautical knowledge and job requirements for commercial pilots, including international flight planning. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-211",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "211",
+        "title": "Flight Instructor Ground School",
+        "units": "3",
+        "prerequisites": ["Aviation 195 and Aviation 201 (C or better)"],
+        "corequisites": ["Concurrent enrollment in Aviation 211L or Aviation 215L (C or better)"],
+        "terms": [],
+        "description": "Introduces methods of flight instruction, combining learning theory with aeronautical science for prospective flight instructors. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-211L",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "211L",
+        "title": "Basic Visual Flight Instructor Lab",
+        "units": "1",
+        "prerequisites": ["Aviation 211 (C or better)"],
+        "corequisites": ["Aviation 133 (C or better)"],
+        "terms": [],
+        "description": "A lab course offering hands-on practice in VFR flight instruction techniques using a simulator. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-215L",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "215L",
+        "title": "Basic Instrument Flight Instructor Lab",
+        "units": "1",
+        "prerequisites": ["Aviation 196L (C or better)"],
+        "corequisites": ["Aviation 211 (C or better)"],
+        "terms": [],
+        "description": "Provides an introduction to IFR flight instruction techniques using a simulator, aimed at those seeking flight instructor qualification. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-216L",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "216L",
+        "title": "Advanced Instrument Flight Instructor Lab",
+        "units": "1",
+        "prerequisites": ["Aviation 215L (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "An advanced lab course for further practice in IFR flight instruction techniques using a simulator. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-228",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "228",
+        "title": "Group Dynamics II",
+        "units": "3",
+        "prerequisites": ["Aviation 128 (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Builds on previous group dynamics concepts to further develop team resource management and leadership skills in high-risk environments. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIA-270",
+        "college": "San Diego Miramar College",
+        "department": "Aviation",
+        "code": "270",
+        "title": "Aviation Operations Internship / Work Experience",
+        "units": "1–4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides on-the-job learning experiences in aviation-related positions; one unit is awarded for every 54 hours of work experience (up to 14 units maximum). (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-101G",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "101G",
+        "title": "General Aviation Technology Theory I",
+        "units": "6",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces basic aerodynamics, aircraft nomenclature, structure, stability, flight controls, and ground operations. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-101H",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "101H",
+        "title": "General Aviation Technology Theory II",
+        "units": "6",
+        "prerequisites": ["Completion of 101G (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces the theory of aircraft fuel systems, instrumentation, and materials/processes, including fuel management and defueling systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-102G",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "102G",
+        "title": "General Aviation Maintenance Technology Practices I",
+        "units": "2",
+        "prerequisites": ["Completion of 101G (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides practical training in basic aviation maintenance using hand and power tools, including safety wiring and weight/balance procedures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-102H",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "102H",
+        "title": "General Aviation Maintenance Technology Practices II",
+        "units": "2",
+        "prerequisites": ["Completion of 101H and 102G (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides practical training in aircraft fuel and instrument systems, materials, and blueprint reading. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-103A",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "103A",
+        "title": "Aircraft Wood, Fabric, Finishing and Composite Structures",
+        "units": "3",
+        "prerequisites": ["101G, 101H, 102G, and 102H (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Studies the design, inspection, servicing, testing, and repair of aircraft wood, composite, and fabric structures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-103B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "103B",
+        "title": "Aircraft Welding and Sheet Metal Structures",
+        "units": "3",
+        "prerequisites": ["101G, 101H, 102G, and 102H (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Studies the design, inspection, servicing, testing, and repair of aircraft sheet metal and welded structures, including material selection and welding techniques. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-103C",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "103C",
+        "title": "Aircraft Hydraulic Systems",
+        "units": "3",
+        "prerequisites": ["101G, 101H, 102G, and 102H (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Studies the design, inspection, servicing, testing, and repair of aircraft hydraulic and pneumatic systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-103D",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "103D",
+        "title": "Aircraft Landing Gear Systems",
+        "units": "3",
+        "prerequisites": ["101G, 101H, 102G, and 102H (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Studies landing gear systems including retraction, shock struts, brakes, wheels, tires, and steering systems, with emphasis on inspections and repairs. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-104A",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "104A",
+        "title": "Applied Aircraft Wood, Fabric, Finishing and Composite Structures",
+        "units": "1.5",
+        "prerequisites": ["Completion of 103A (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "An applied course focusing on the practical aspects of designing, inspecting, and repairing aircraft wood, composite, and fabric structures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-104B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "104B",
+        "title": "Applied Aircraft Welding and Sheet Metal Structures",
+        "units": "1.5",
+        "prerequisites": ["Completion of 103B (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "An applied course covering practical welding and repair techniques for aircraft sheet metal and welded structures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-104C",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "104C",
+        "title": "Applied Aircraft Hydraulic Systems",
+        "units": "1",
+        "prerequisites": ["Completion of 103C (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "An applied course addressing practical aspects of servicing and repairing aircraft hydraulic and pneumatic systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-104D",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "104D",
+        "title": "Applied Aircraft Landing Gear Systems",
+        "units": "1",
+        "prerequisites": ["Completion of 103D (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Teaches practical techniques for operating, inspecting, and repairing aircraft landing gear systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-105A",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "105A",
+        "title": "Aircraft Cabin Atmosphere Control",
+        "units": "1.5",
+        "prerequisites": ["101G, 101H, 102G, and 102H (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Studies the design, inspection, maintenance, and repair of cabin atmosphere control systems including heating, cooling, pressurization, and oxygen systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-105B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "105B",
+        "title": "Aircraft Assembly, Rigging and Inspection",
+        "units": "1.5",
+        "prerequisites": ["101G, 101H, 102G, and 102H (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers techniques for aircraft assembly including alignment, balance, rigging of movable surfaces, jacking, and inspection for airworthiness. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-106A",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "106A",
+        "title": "Aircraft Cabin Atmosphere Control Lab",
+        "units": "0.5",
+        "prerequisites": ["Completion of 105A (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "A lab course teaching operation, maintenance, and repair of cabin atmosphere control systems. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-106B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "106B",
+        "title": "Applied Aircraft Assembly, Rigging and Inspection",
+        "units": "1",
+        "prerequisites": ["Completion of 105B (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "A lab course that teaches practical techniques for assembling and inspecting fixed and rotary wing aircraft. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-107B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "107B",
+        "title": "Turbine Engines",
+        "units": "3",
+        "prerequisites": ["101G, 101H, 102G, and 102H (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "A study of turbine engine theory covering operation, design, overhaul, inspection, servicing, and troubleshooting of various aircraft powerplants. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-108B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "108B",
+        "title": "Applied Turbine Engines",
+        "units": "1",
+        "prerequisites": ["Completion of 107B (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers the practical application of turbine engine theory, including overhaul, inspection, servicing, and repair procedures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-108B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "109A",
+        "title": "Airframe Electrical Systems",
+        "units": "3",
+        "prerequisites": ["Completion of 101G, 101H, 102G, 102H, 120, and 121A (C or better)"],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers the practical application of turbine engine theory, including overhaul, inspection, servicing, and repair procedures. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": ["AA/AS", "CSU"]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-109B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "109B",
+        "title": "Powerplant Ignition Systems",
+        "units": "2",
+        "prerequisites": [
+          "Aviation Maintenance Technology 101G, 101H, 102G, and 102H, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "This course is a study of the design, installation, and operation of powerplant ignition systems. Topics include magnetos, spark plug harnesses, spark plugs, solid-state exciters, turbine igniters, and other ignition systems likely to be encountered by an aircraft maintenance technician. This course is intended for students majoring in Aviation Maintenance Technology or those seeking a Federal Aviation Administration (FAA) Mechanics Certificate with Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-109C",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "109C",
+        "title": "Powerplant Electrical Systems",
+        "units": "3",
+        "prerequisites": [
+          "Aviation Maintenance Technology 101G, 101H, 102G, 102H, 120, and 121A, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "This course is a study of the design, installation, and operation of both direct and alternating powerplant electrical current systems. Topics include lead acid and nickel cadmium batteries; wiring; control circuits; switches; indicators; electrical power generation and control; circuit protection devices; and other electrical systems likely to be encountered by an aircraft maintenance technician. This course is intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-109D",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "109D",
+        "title": "Aircraft Fire Protection and Digital Logic",
+        "units": "1",
+        "prerequisites": [
+          "Aviation Maintenance Technology 101G, 101H, 102G, and 102H, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "This airframe and powerplant course covers all aspects of fire protection systems. Topics include system design, maintenance practices, extinguishing systems, digital logic systems, and basic computer applications used in the aircraft industry. It meets the requirements of FAR Part 147, Appendix C, Section II: Subject J; and Appendix D, Section II: Subject B. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Airframe and/or Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-110A",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "110A",
+        "title": "Applied Airframe Electrical Systems",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 109A with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An applied study of the design, installation, troubleshooting, repair, and operation of both direct and alternating current systems. Topics include communication and navigation systems; wiring; control circuits; switches; indicators; electrical power generation and control; and circuit protection devices. Meets FAR Part 147 Appendix C; Section II: Subjects E and G. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Airframe rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-110B",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "110B",
+        "title": "Applied Powerplant Ignition Systems",
+        "units": "0.5",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 109B with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An applied study of the design, installation, servicing, troubleshooting, repair, and operation of powerplant ignition systems. Topics include magnetos, spark plug harnesses, spark plugs, solid-state exciters, turbine igniters, and other ignition systems. Meets FAR Part 147, Appendix D; Section II: Subject E. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-110C",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "110C",
+        "title": "Applied Powerplant Electrical Systems",
+        "units": "0.5",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 109C with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An applied study of the design, installation, troubleshooting, repair, and operation of both direct and alternating current systems. Topics include lead acid and nickel cadmium battery maintenance; wiring; control circuits; switches; indicators; electrical power generation and control; and circuit protection devices. Meets FAR Part 147, Appendix D; Section II: Subjects A & C. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-111C",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "111C",
+        "title": "Reciprocating Engines I",
+        "units": "3",
+        "prerequisites": [
+          "Aviation Maintenance Technology 101G, 101H, 102G, 102H, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "A study of the theory of operation, design, overhaul, inspection, and repair of aircraft reciprocating powerplants. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-111D",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "111D",
+        "title": "Reciprocating Engines II",
+        "units": "3",
+        "prerequisites": [
+          "Aviation Maintenance Technology 101G, 101H, 102G, and 102H, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "A study of aircraft reciprocating powerplant systems and operations. Topics include check, repair, servicing, installation, removal, and inspection of aircraft reciprocating powerplants. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-112C",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "112C",
+        "title": "Applied Reciprocating Engines I",
+        "units": "2",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 111C with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An applied study of the theory of operation, overhaul, inspection, and repair of aircraft reciprocating powerplants. Meets FAR Part 147, Appendix D, Section I: Subjects A: 1, 2. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-112D",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "112D",
+        "title": "Applied Reciprocating Engines II",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 111D with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An applied study of powerplant systems and operations. Topics include operation, installation, removal, inspection, repair, servicing, check, and troubleshooting of powerplant installations. Meets FAR Part 147, Appendix D, Section I: Subjects A: 3, 4; C: 8. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-120",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "120",
+        "title": "Basic D.C. Electronics Theory",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides instruction in direct current electronics theory. Topics include atomic theory; direct current concepts; series, parallel, and circuit analysis; magnetism; and electromagnetism. Emphasizes the theoretical application of Ohm’s and Kirchhoff’s laws. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Airframe or Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-121A",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "121A",
+        "title": "Applied Basic D.C. Electronics",
+        "units": "1.5",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 120 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "Provides instruction in practical applications of direct current electronics theory. Topics include atomic theory; direct current concepts; series, parallel, and circuit analysis; magnetism; and electromagnetism. Emphasizes proper use of multimeters and troubleshooting of direct current circuits. Meets FAR Part 147, Appendix B, Subject A. Intended for students majoring in Aviation Maintenance Technology or those seeking a FAA Mechanics Certificate with Airframe or Powerplant rating. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-203",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "203",
+        "title": "Advanced Composites",
+        "units": "3",
+        "prerequisites": [
+          "Aviation Maintenance Technology 102G and 102H, each with a grade of “C” or better, or equivalent FAA Airframe or Powerplant Certificate"
+        ],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 204 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "Focuses on advanced aircraft composite structures, maintenance, and fabrication. Topics include reinforcements, resins, and core materials used in bonded structures; repair strategies and post-cure inspection. Intended for students seeking knowledge and skills in aircraft composites. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-204",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "204",
+        "title": "Advanced Composites Laboratory",
+        "units": "1",
+        "prerequisites": [
+          "Aviation Maintenance Technology 102G and 102H, each with a grade of “C” or better, or equivalent FAA Airframe or Powerplant Certificate"
+        ],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 203 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "Covers applications of advanced aircraft composite structures, maintenance, and fabrication techniques. Topics include reinforcements, resins, core materials, and post-cure inspection using approved fasteners. Intended for students seeking knowledge and skills in aircraft composites. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-205",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "205",
+        "title": "Advanced Aircraft Metal Forming and Welding Lecture",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 206 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "Focuses on traditional hand- and machine-forming of aircraft sheet metal. Topics include welding techniques using traditional and modern methods. Intended for students seeking advanced knowledge in aircraft fabrication and repair. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-206",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "206",
+        "title": "Advanced Aircraft Metal Forming and Welding Laboratory",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 205 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "Provides practical application of traditional hand- and machine-forming of aircraft sheet metal. Covers various welding techniques and post-weld inspections. Intended for students seeking advanced knowledge in aircraft fabrication and repair. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-241",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "241",
+        "title": "Aircraft Propeller Systems",
+        "units": "3",
+        "prerequisites": [
+          "Aviation Maintenance Technology 101G, 101H, 102G, and 102H, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "A study of aircraft propellers covering aerodynamics, operation theory, inspection, troubleshooting, and maintenance of reciprocating and turboprop controllable-pitch propellers and components. Not open to students with previous credit for Aviation Maintenance Technology 107A. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-242",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "242",
+        "title": "Applied Aircraft Propeller Systems",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 241 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An applied study of the installation, removal, inspection, repair, service, and troubleshooting of propellers and propeller system components. Meets FAR Part 147, Appendix D, Section II: Subject K. Not open to students with previous credit for Aviation Maintenance Technology 108A. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-249",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "249",
+        "title": "Induction and Fuel Metering",
+        "units": "3",
+        "prerequisites": [
+          "Aviation Maintenance Technology 101G, 101H, 102G, and 102H, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "A study of aircraft induction systems including theory of operation, design, overhaul, inspection, servicing, repair, and troubleshooting of normally aspirated, turbo-charged, and supercharged systems, fuel metering, anti-detonation systems, and fuel controls. Not open to students with previous credit for Aviation Maintenance Technology 111A. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-250",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "250",
+        "title": "Applied Induction and Fuel Metering",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 249 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An applied course covering aircraft induction systems with topics on design, overhaul, inspection, servicing, repair, and troubleshooting of normally aspirated, turbo-charged, and supercharged systems. Meets FAR Part 147, Appendix D, Section II: Subjects F, G, and H. Not open to students with previous credit for Aviation Maintenance Technology 112A. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-253",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "253",
+        "title": "Lubrication, Cooling, and Exhaust",
+        "units": "3",
+        "prerequisites": [
+          "Aviation Maintenance Technology 101G, 101H, 102G, and 102H, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "A study of aircraft lubrication, cooling, and exhaust systems. Topics include inspection, checks, service, repair, and maintenance of oil systems; liquid and air cooling; open and collected exhaust; and lubricant selection. Not open to students with previous credit for Aviation Maintenance Technology 111B. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-254",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "254",
+        "title": "Applied Lubrication, Cooling, and Exhaust",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Aviation Maintenance Technology 253 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An applied course covering the theory of lubrication, cooling, and exhaust systems with topics on inspection, service, repair, and maintenance. Meets FAR Part 147, Appendix D, Section II: Subjects D, I, and J. Not open to students with previous credit for Aviation Maintenance Technology 112B. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-270",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "270",
+        "title": "Aviation Maintenance Technology Internship / Work Experience",
+        "units": "1-4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides on-the-job learning experiences for students employed in an aviation maintenance technology-related job or internship. Students develop workplace competencies and problem-solving skills. May be taken up to four times; one unit is earned for every 54 hours of work experience. Intended for students majoring in Aviation Maintenance Technology or those interested in the aeronautics field. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-AVIM-290",
+        "college": "San Diego Miramar College",
+        "department": "Aviation Maintenance Technology",
+        "code": "290",
+        "title": "Independent Study",
+        "units": "1-3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "For students who wish to conduct additional research, a special project, or learning activities in aviation maintenance technology. Not intended to replace an existing course; involves a written contract with the instructor outlining project activities. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BANK-100",
+        "college": "San Diego Miramar College",
+        "department": "Banking and Finance",
+        "code": "100",
+        "title": "Introduction to Financial Services",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "An overview of the fundamental role and function of financial services and the industry. Topics include commercial and investment banking; insurance; mutual funds; various financial markets; financial institutions; deposit/payment functions; the Federal Reserve; and regulatory functions. Intended for students majoring in Financial Services or Business. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BANK-102",
+        "college": "San Diego Miramar College",
+        "department": "Banking and Finance",
+        "code": "102",
+        "title": "Mortgage Brokerage and Banking",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces the mortgage brokerage and banking industry. Covers history, concepts, vocabulary, loan products, the roles of transaction participants, economic effects on real estate lending, and the legal/financial impacts of fraud. Emphasis on customer service and ethics, with content specific to California regulations. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BANK-103",
+        "college": "San Diego Miramar College",
+        "department": "Banking and Finance",
+        "code": "103",
+        "title": "Introduction to Investments",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Presents basic investment concepts including markets, transactions, planning, risk, and return, as well as various investment vehicles (stocks, fixed-income, derivatives, mutual funds). Intended for students majoring in Financial Services or Business. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BANK-200",
+        "college": "San Diego Miramar College",
+        "department": "Banking and Finance",
+        "code": "200",
+        "title": "Principles of Insurance",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces property and liability insurance, covering topics such as life, health, home, automobile, property damage, liability, indemnity, frequency, underwriting, and government regulation. Intended for students majoring in Financial Services or Business. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-48",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "48",
+        "title": "Pre-biology and Study Skills",
+        "units": "0.5",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers fundamental concepts and skills for success in introductory biology. Topics include biology terminology, mathematical concepts, chemistry basics, the process of science, and study skills. Intended for students preparing to enroll in introductory biology courses. (FT) Not applicable to the Associate Degree.",
+        "grading": "Pass/No Pass",
+        "applicability": []
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-100",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "100",
+        "title": "Natural History – Environmental Biology",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "An introduction to the basic principles of ecology with emphasis on Southern California’s natural systems. Topics include terrestrial and aquatic ecosystems, evolution, biodiversity, species interactions, and human impacts. Intended for students interested in environmental biology. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-101",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "101",
+        "title": "Issues in Environmental Science & Sustainability",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Examines contemporary issues in environmental science and sustainability, including ecological principles, ecosystem dynamics, biodiversity, human population and resource management, and pollution. Coordinated with a laboratory focusing on Southern California environmental issues. Intended for students majoring in sustainability and related fields. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-107",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "107",
+        "title": "General Biology–Lecture and Laboratory",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "An examination of living organisms and their environment. Topics include chemical and physical processes in living systems, genetics, metabolism, anatomy, physiology, behavior, evolution, and cellular/molecular biology. Intended primarily for Allied Health and Education majors. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-115",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "115",
+        "title": "Marine Biology",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "A survey of marine biology focusing on marine organisms, their ecology, and evolutionary adaptations. Includes field trips to local marine habitats, aquaria, and museums. Intended for students interested in marine biology. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-130",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "130",
+        "title": "Human Heredity",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces concepts and applications of human heredity, covering both classical Mendelian genetics and modern molecular genetics. Topics include gamete formation, karyotypes, genetic crosses, gene expression, and population genetics. Designed for students interested in biology and heredity. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-131",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "131",
+        "title": "Introduction to Biotechnology",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "A general examination of biology as it relates to biotechnology. Topics include fundamental chemical processes in cells, biomolecules, cellular and molecular biology, immunology, and genetic engineering, with laboratory components addressing biotechnology techniques. Intended for students majoring in applied biology and as a general education option. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-132",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "132",
+        "title": "Applied Biotechnology I",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides entry-level skills for the biotechnology industry including aseptic techniques, lab safety, and preparation of biological media and solutions. Topics also include microbial growth and cellular component separation. Intended for students preparing for a biotechnology career. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-133",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "133",
+        "title": "Applied Biotechnology II",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "An advanced biotechnology course covering transformation, DNA restriction analysis, protein analysis, and immunological applications with laboratory practice. Intended for students preparing for a career in biotechnology. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-134",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "134",
+        "title": "Introduction to the Biotechnology Lab",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Examines laboratory technology in biotechnology including protein quantification, bacterial culture, genetic engineering, and PCR. Provides context on the applications of these techniques in the industry. Intended for Applied Biology or Allied Health majors. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-135",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "135",
+        "title": "Biology of Human Nutrition",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Relates biological principles of nutrition to psychological, cultural, and social aspects of food and health. Integrates concepts from biology, physiology, biochemistry, microbiology, and more to explore how nutrition impacts wellness and society. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-136",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "136",
+        "title": "Quality and Regulatory Practices in Biotechnology",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces basic quality control, quality assurance, validation, documentation, and regulatory compliance tools in biotechnology. Prepares students for the CQIA exam via the American Society for Quality. Intended for current or future biotechnology technicians. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-160",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "160",
+        "title": "Elements of Human Anatomy and Physiology",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "An introduction to human body structure and functions, with emphasis on the major body systems including skeletal, muscular, nervous, endocrine, and more. Designed for students preparing for allied health occupations. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-180",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "180",
+        "title": "Plants and People",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Examines the interdependence of humans and plants, exploring plant ecology, biology, and taxonomy along with current environmental and economic issues related to plant use. Intended for students interested in biology, anthropology, environmental science, or agriculture. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-200",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "200",
+        "title": "Biological Statistics",
+        "units": "3",
+        "prerequisites": [
+          "Biology 107 or Biology 210A and Mathematics 116, each with a grade of “C” or better, or equivalent; completed within five years of enrollment"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "An introductory statistics course using biological examples and experimental design. Covers descriptive/inferential statistics, probability, sampling, confidence intervals, hypothesis testing, regression, and correlation. Intended for students majoring in biological science. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-205",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "205",
+        "title": "General Microbiology",
+        "units": "5",
+        "prerequisites": [
+          "Biology 107 or Biology 210A, Chemistry 100 and Chemistry 100L or Chemistry 103, or Chemistry 152 and Chemistry 152L, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers fundamental aspects of microbiology including taxonomy, structure, physiology, reproduction, genetics, immunology, and lab techniques for culturing and identifying microorganisms. Intended for students pursuing allied health careers. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-210A",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "210A",
+        "title": "Introduction to the Biological Sciences I",
+        "units": "4",
+        "prerequisites": [
+          "Chemistry 152 and Chemistry 152L, each with a grade of “C” or better, or equivalent; successful completion of Intermediate Algebra with a “C” or better (all prerequisites within five years)"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers biological chemistry, cell structure and function, cellular metabolism, classical and molecular genetics, and the molecular basis of evolutionary biology. First semester of a two-semester sequence designed for biological science and pre-professional majors. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-210B",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "210B",
+        "title": "Introduction to the Biological Sciences II",
+        "units": "4",
+        "prerequisites": [
+          "Biology 210A with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers the three domains of life and the phylogenetic relationships among major organism groups. Topics include adaptive radiation, anatomy, physiology, development, behavior, and ecology. Second semester of the two-semester sequence for biological science majors. (FT) AA/AS; CSU; UC; C-ID BIOL 140.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-230",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "230",
+        "title": "Human Anatomy",
+        "units": "4",
+        "prerequisites": [
+          "Biology 107, Biology 160, or Biology 210A, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "A systems approach to human body structure from the microscopic to the gross level. Includes study of histological slides, models, and dissection (may include prosected cadavers). Intended for students in nursing, allied health, psychology, and related fields. (FT) AA/AS; CSU; UC; C-ID BIOL 110B.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-231",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "231",
+        "title": "Media Experiences in Human Anatomy",
+        "units": "1",
+        "prerequisites": [],
+        "corequisites": [
+          "Biology 230"
+        ],
+        "terms": [],
+        "description": "A self-paced study of human anatomy through computer software, microscope slides, models, and graphics. Designed to supplement traditional anatomy courses for students in various health fields. (FT) AA/AS; CSU.",
+        "grading": "Pass/No Pass",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-232",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "232",
+        "title": "Experience in Human Dissection",
+        "units": "1",
+        "prerequisites": [
+          "Biology 230 with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides supervised hands-on experience in human dissection, covering techniques and human anatomy. Intended for students pursuing nursing, medicine, and other allied health professions. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BIOL-235",
+        "college": "San Diego Miramar College",
+        "department": "Biology",
+        "code": "235",
+        "title": "Human Physiology",
+        "units": "4",
+        "prerequisites": [
+          "Biology 107 or Biology 210A, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "An introductory study of human body functions focusing on the nervous, endocrine, muscular, cardiovascular, immune, digestive, respiratory, urinary, and reproductive systems. Laboratory work applies the scientific method to understand bodily functions. Intended for nursing, allied health, psychology, and related majors. (FT) AA/AS; CSU; UC; C-ID BIOL 120B.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BLAS-100",
+        "college": "San Diego Miramar College",
+        "department": "Black Studies",
+        "code": "100",
+        "title": "Introduction to Black Studies",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "An overview of the Black Studies discipline including its origins, goals, and interdisciplinary approaches to the African experience in America and the world. Intended for Black Studies/Ethnic Studies majors and anyone interested in the Black experience. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BLAS-104",
+        "college": "San Diego Miramar College",
+        "department": "Black Studies",
+        "code": "104",
+        "title": "Black Psychology",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces psychological concepts as they relate to African American behaviors, perspectives, and lifestyles. Compares traditional Euro-American theories with contemporary Afri-centric approaches. Intended for Black Studies majors and those interested in Ethnic Studies aspects of psychology. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BLAS-140A",
+        "college": "San Diego Miramar College",
+        "department": "Black Studies",
+        "code": "140A",
+        "title": "African American History to Reconstruction",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "A survey course examining U.S. History from an African American perspective from the Colonial period to 1877, focusing on contributions, impact, and cultural development. Intended for students interested in Black Studies and U.S. history. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BLAS-140B",
+        "college": "San Diego Miramar College",
+        "department": "Black Studies",
+        "code": "140B",
+        "title": "African American History since Reconstruction to the Present",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "A survey course examining U.S. History from Reconstruction to the present from an African American perspective, focusing on political, social, economic, cultural, and intellectual trends. Intended for students interested in Black Studies and U.S. history. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BLAS-150",
+        "college": "San Diego Miramar College",
+        "department": "Black Studies",
+        "code": "150",
+        "title": "Black Women in Literature, Film and the Media",
+        "units": "3",
+        "prerequisites": [
+          "Advisory: English 101 with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Analyzes stereotypical, contemporary, and self images of Africana women in literature, film, and media. Designed for Black Studies/Ethnic Studies majors and those interested in related fields. (FT) AA/AS; CSU; UC.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BLAS-155",
+        "college": "San Diego Miramar College",
+        "department": "Black Studies",
+        "code": "155",
+        "title": "African American Literature",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "A survey of African American cultural expression through language and literature, examining historical texts such as praise songs, slave narratives, folktales, poetry, and more. Intended for Black Studies/Ethnic Studies majors and those interested in literature from an African American perspective. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-100",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "100",
+        "title": "Introduction to Business",
+        "units": "3",
+        "prerequisites": [
+          "Advisory: Business 92 with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides a broad understanding of the business community including functions, organizational structure, leadership, human resource management, marketing, technology, entrepreneurship, legal and financial practices, and more. Intended for business majors or anyone interested in business. (FT) AA/AS; CSU; UC; C-ID BUS 110.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-101",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "101",
+        "title": "Business Mathematics",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "A comprehensive study of mathematical concepts and computational techniques used in business, including topics such as bank mathematics, payroll, interest, loans, taxes, and depreciation. Intended for students in business settings. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-102",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "102",
+        "title": "Introduction to Customer Service",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides basic knowledge of customer service from both provider and customer perspectives, emphasizing leadership, retention, satisfaction, and internal service principles. Intended for business majors and others interested in the field. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-115",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "115",
+        "title": "Statistics for Business",
+        "units": "3",
+        "prerequisites": [
+          "Successful completion of Intermediate Algebra with a “C” or better or appropriate placement"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "A study of statistical analysis including descriptive statistics, probability, sampling, confidence intervals, hypothesis testing, ANOVA, and regression/correlation for business decision making. Intended for business, economics, and related fields. (FT) AA/AS; CSU; UC; C-ID MATH 110.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-119",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "119",
+        "title": "Business Communications",
+        "units": "3",
+        "prerequisites": [
+          "English 101 with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Applies effective and ethical communication principles to business settings including letters, memos, emails, reports, and presentations. Emphasizes organization, analysis, and composition of professional messages. Intended for business majors and professionals. (FT) AA/AS; CSU; C-ID BUS 115.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-120",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "120",
+        "title": "Personal Financial Management",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces the principles of personal finance and money management, including personal budgeting, spending, saving, credit building, insurance, retirement, and investment options. Intended for all students interested in personal finance. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-129",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "129",
+        "title": "Introduction to Entrepreneurship",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Develops an understanding of the tasks faced by entrepreneurs, including traits, ideation, feasibility planning, financial projections, resource acquisition, and business startup steps. Intended for students interested in entrepreneurship and small business development. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-140",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "140",
+        "title": "Business Law and the Legal Environment",
+        "units": "3",
+        "prerequisites": [
+          "Advisory: English 101 or Business 92 with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces the legal system and laws governing business in America, including contracts, torts, bankruptcy, agency, business organization, and intellectual property. Intended for business majors and those interested in business law. (FT) AA/AS; CSU; UC; C-ID BUS 120, BUS 125.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-150",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "150",
+        "title": "Human Relations in Business",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Introduces human behavior as it relates to business, covering leadership, communication, decision making, motivation, and personnel issues. Intended for business majors and professionals. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-155",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "155",
+        "title": "Small Business Management",
+        "units": "3",
+        "prerequisites": [
+          "Advisory: Business 101 and Business 100 with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Examines elements of successfully operating a small business, including human resource management, marketing, and legal issues. Intended for business majors or those interested in small business ownership. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-157",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "157",
+        "title": "Developing a Plan for the Small Business",
+        "units": "3",
+        "prerequisites": [
+          "Advisory: English 101 or English 105 and Business 101 with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Prepares students to create an effective business plan, focusing on financing, marketing, and location decisions. Designed for students planning to start their own business. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-201",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "201",
+        "title": "Business Organization and Management",
+        "units": "3",
+        "prerequisites": [
+          "Advisory: English 101 or English 105 with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "Covers fundamentals of business organization and management with emphasis on planning, organizing, leading, and controlling, as well as managerial ethics and corporate social responsibility. Intended for business majors and professionals in management. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-229A",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "229A",
+        "title": "Gazelle Path Business Incubator I",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Business 129 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "The first in a four-course series teaching the 'gazelle path' method for high-growth, high-value companies. Focuses on entrepreneurship concepts, lean methodology, local business resources, introductory pitches, and problem testing. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-229B",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "229B",
+        "title": "Gazelle Path Business Incubator II",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Business 129 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "The second in the 'gazelle path' series. Focuses on entrepreneurship concepts with topics including local business resources, beginning pitches, and payment testing. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-229C",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "229C",
+        "title": "Gazelle Path Business Incubator III",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Business 129 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "The third course in the series focusing on intermediate business pitches and solution testing, including methods, measurement, and evaluation. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-229D",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "229D",
+        "title": "Gazelle Path Business Incubator IV",
+        "units": "4",
+        "prerequisites": [],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Business 129 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "The final course in the 'gazelle path' series. Emphasizes advanced business pitches, scaling ventures, and profitability testing. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-270",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "270",
+        "title": "Business Internship / Work Experience",
+        "units": "1-4",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Provides on-the-job learning experiences for students employed in a business-related job or internship. Develops workplace competencies and problem solving skills. Intended for business majors or those interested in the field. (FT) AA/AS; CSU.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-BUSE-290",
+        "college": "San Diego Miramar College",
+        "department": "Business",
+        "code": "290",
+        "title": "Independent Study",
+        "units": "1-3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "For students wishing to conduct additional research, special projects, or independent learning activities in business. Involves a written contract with the instructor. (FT) AA/AS; CSU.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-CHEM-100",
+        "college": "San Diego Miramar College",
+        "department": "Chemistry",
+        "code": "100",
+        "title": "Fundamentals of Chemistry",
+        "units": "3",
+        "prerequisites": [
+          "Successful completion of Intermediate Algebra with a grade of C or better or appropriate placement based on California Title 5 regulations"
+        ],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Chemistry 100L with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "An introductory study of the language and tools of chemistry. Covers basic concepts of matter, chemical changes, conversions, bonding, and acid-base chemistry. Provides a foundation for further coursework, especially introductory organic chemistry. Intended for nursing, nutrition, or animal health technology majors. (FT) AA/AS; CSU; UC; C-ID CHEM 101.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-CHEM-100L",
+        "college": "San Diego Miramar College",
+        "department": "Chemistry",
+        "code": "100L",
+        "title": "Fundamentals of Chemistry Laboratory",
+        "units": "1",
+        "prerequisites": [
+          "Successful completion of Intermediate Algebra with a grade of C or better or appropriate placement based on California Title 5 regulations"
+        ],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Chemistry 100 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "Illustrates principles of inorganic and physical chemistry and familiarizes students with laboratory equipment, safe practices, and data interpretation. Designed for students in nursing, nutrition, and allied health sciences. (FT) AA/AS; CSU; UC; C-ID CHEM 101.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-CHEM-103",
+        "college": "San Diego Miramar College",
+        "department": "Chemistry",
+        "code": "103",
+        "title": "General, Organic, and Biological Chemistry",
+        "units": "5",
+        "prerequisites": [
+          "Successful completion of Intermediate Algebra with a grade of C or better or appropriate placement based on California Title 5 regulations"
+        ],
+        "corequisites": [],
+        "terms": [],
+        "description": "A one-semester survey of general, organic, and biological chemistry for health-related fields. Includes qualitative and quantitative experiments and data analysis. Intended for nursing, nutrition, or allied health majors. (FT) AA/AS; CSU; UC; C-ID CHEM 101.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-CHEM-111",
+        "college": "San Diego Miramar College",
+        "department": "Chemistry",
+        "code": "111",
+        "title": "Chemistry in Society",
+        "units": "3",
+        "prerequisites": [],
+        "corequisites": [],
+        "terms": [],
+        "description": "Emphasizes conceptual topics in chemistry and scientific thinking, covering environmental issues such as energy resources and pollution, as well as current trends in organic and biochemistry. Intended for non-science majors. (FT) AA/AS; CSU; UC; C-ID CHEM 101.",
+        "grading": "Grade Only",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-CHEM-130",
+        "college": "San Diego Miramar College",
+        "department": "Chemistry",
+        "code": "130",
+        "title": "Introduction to Organic and Biological Chemistry",
+        "units": "3",
+        "prerequisites": [
+          "Chemistry 100 and 100L, or Chemistry 152 and 152L, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Chemistry 130L with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "A one-semester course introducing the basic physical, chemical, and structural features of organic and biological compounds. Covers bonding, hydrocarbons, functional groups, and the properties of carbohydrates, fats, and proteins. Designed for nursing, nutrition, and allied health majors. (FT) AA/AS; CSU; UC; C-ID CHEM 101.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-CHEM-130L",
+        "college": "San Diego Miramar College",
+        "department": "Chemistry",
+        "code": "130L",
+        "title": "Introduction to Organic and Biological Chemistry Laboratory",
+        "units": "1",
+        "prerequisites": [
+          "Chemistry 100 and 100L, or Chemistry 152 and 152L, each with a grade of “C” or better, or equivalent"
+        ],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Chemistry 130 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "A one-semester laboratory course illustrating principles from Chemistry 130. Introduces common laboratory techniques such as chromatography, recrystallization, and distillation, as well as tests for organic functional groups. Designed for nursing, nutrition, and allied health majors. (FT) AA/AS; CSU; UC; C-ID CHEM 101.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-CHEM-152",
+        "college": "San Diego Miramar College",
+        "department": "Chemistry",
+        "code": "152",
+        "title": "Introduction to General Chemistry",
+        "units": "3",
+        "prerequisites": [
+          "Successful completion of Intermediate Algebra with a grade of C or better or placement Milestone M50 based on California Title 5 regulations"
+        ],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Chemistry 152L with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "A one-semester preparatory course in chemistry that covers atomic structure, chemical nomenclature, periodicity, chemical equations, stoichiometry, solutions, and gas laws. (Text truncated.)",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      },
+      {
+        "id": "SAN-DIEGO-MIRAMAR-CHEM-152L",
+        "college": "San Diego Miramar College",
+        "department": "Chemistry",
+        "code": "152L",
+        "title": "Introduction to General Chemistry Laboratory",
+        "units": "1",
+        "prerequisites": [
+          "Successful completion of Intermediate Algebra with a grade of C or better or placement Milestone M50 based on California Title 5 regulations"
+        ],
+        "corequisites": [
+          "Completion of or concurrent enrollment in Chemistry 152 with a grade of “C” or better, or equivalent"
+        ],
+        "terms": [],
+        "description": "A one-semester laboratory course that provides hands-on experience in general chemistry. Topics include experimental techniques, measurement and data analysis, chemical reaction experiments, and laboratory safety protocols. Designed to complement the lecture course, Introduction to General Chemistry. (FT) AA/AS; CSU; UC.",
+        "grading": "Letter Grade or Pass/No Pass Option",
+        "applicability": [
+          "AA/AS",
+          "CSU",
+          "UC"
+        ]
+      }
+  ]
