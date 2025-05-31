@@ -194,3 +194,16 @@ function updateProgramsFromSelect() {
   saveUserPlans();
   renderCoursePool(plan);
 }
+
+function updateProgramSelect(plan) {
+  const select = document.getElementById("programSelect");
+  select.innerHTML = "";
+
+  Object.keys(programData).forEach(name => {
+    const option = document.createElement("option");
+    option.value = name;
+    option.innerText = name;
+    if (plan.programs.includes(name)) option.selected = true;
+    select.appendChild(option);
+  });
+}
